@@ -24,6 +24,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Landing/>} />
             <Route path="/games" element={<Games/>} />
+            {/* add a for loop which loops thru the games in the gaem list json file. 
+            Add routes for each game, and setup a game page 
+            which takes in the game's json info as props.
+           */}
           </Routes>
         </div>
       </BrowserRouter>
