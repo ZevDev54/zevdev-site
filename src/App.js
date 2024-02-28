@@ -14,23 +14,25 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <main>
-    <link rel="icon" href="./images/logo/ZDLogoNoBackground.png" />
+    <main className="limegreen">
+      <div className="m-10">
+        <link rel="icon" href="./images/logo/ZDLogoNoBackground.png" />
 
 
-      <BrowserRouter>
-        <div>
-        <Navbar></Navbar>
-          <Routes>
-            <Route path="/" element={<Landing/>} />
-            <Route path="/games" element={<Games/>} />
-            {/* add a for loop which loops thru the games in the gaem list json file. 
+        <BrowserRouter>
+          <div>
+            <Navbar></Navbar>
+            <Routes>
+              <Route path="/" element={<Landing />} />
+              <Route path="/games" element={<Games />} />
+              {/* add a for loop which loops thru the games in the gaem list json file. 
             Add routes for each game, and setup a game page 
             which takes in the game's json info as props.
            */}
-          </Routes>
-        </div>
-      </BrowserRouter>
+            </Routes>
+          </div>
+        </BrowserRouter>
+      </div>
     </main>
   );
 }

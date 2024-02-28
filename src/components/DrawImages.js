@@ -5,10 +5,10 @@ import { Path } from 'react-router-dom';
 
 const list = games.map((game) => {
     return (
-        <div className='m-10 bg-slate-500 rounded-lg'>
+        <div className='m-10 greencard rounded-lg'>
             <img src={require('../images/gamethumbnails/'+game.thumbpath)} className='m-10 w-96' ></img>
-            <h1 className='text-center text-3xl'>{game.name}</h1>
-            <p>{game.pageslug}</p>
+            <h1 className='text-center text-3xl m-10 whitecard'>{game.name}</h1>
+            {/* <p>{game.pageslug}</p> */}
             
         </div>
     )
@@ -17,7 +17,7 @@ const list = games.map((game) => {
 
 export default function DrawImages() {
     return (
-        <div className='flex m-16'>
+        <div className='whitecard flex m-16 rounded-3xl'>
             {list}
         </div>
     )
