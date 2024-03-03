@@ -30,6 +30,7 @@ code {
 .whitecard {
   background-color:#F2F7E6;
   box-shadow: -5px 5px 4px 3px #81AE64;
+  border-radius: 1.5rem;
 }
 
 .greencard {
@@ -37,5 +38,14 @@ code {
   box-shadow: -5px 5px 4px 3px #C5E5D8;
 }
 
+.bowlby {
+  font-family: 'Bowlby One SC';
+}
 
+@font-face {
+  font-family: 'Bowlby One SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(http://themes.googleusercontent.com/static/fonts/bowlbyonesc/v5/8ZkeXftTuzKBtmxOYXoReWwgCUWMlcoGHIqZ0R9q_Yo.ttf) format('truetype');
+}
 

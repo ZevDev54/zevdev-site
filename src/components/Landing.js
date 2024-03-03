@@ -2,9 +2,8 @@ import React from 'react';
 
 export default function Landing() {
     return(
-        <div>
+        <div className='whitecard m-10 p-10'>
 
-            <p className="text-3xl font-bold">Hello world!</p>
         </div>
     )
 };
