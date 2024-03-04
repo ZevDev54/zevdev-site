@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 import games from '../images/gamethumbnails/thumbnail-list.json';
-import { Path } from 'react-router-dom';
+
 // C:\Users\zevyj\Desktop\Projects\Website Stuff\zevdev-reactwebsite-2\zevdev-site\src\
 
 const list = games.map((game) => {
     return (
-        <div className='m-10 greencard rounded-lg'>
-            <img src={require('../images/gamethumbnails/'+game.thumbpath)} className='m-10 w-96' ></img>
-            <h1 className='text-center text-3xl m-10 whitecard'>{game.name}</h1>
+        <div className='greencard gamecard'>
+            <img src={require('../images/gamethumbnails/'+game.thumbpath)} className='gamethumb' alt={'game thumnail for '+game.name}></img>
+            <h1 className='whitecard gametitle'>{game.name}</h1>
             {/* <p>{game.pageslug}</p> */}
             
         </div>
@@ -17,7 +17,7 @@ const list = games.map((game) => {
 
 export default function DrawImages() {
     return (
-        <div className='whitecard flex m-16 rounded-3xl'>
+        <div className='whitecard gamelist'>
             {list}
         </div>
     )

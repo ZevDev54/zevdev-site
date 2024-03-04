@@ -1,6 +1,6 @@
-import "./index.css"
+import "./index.scss"
 import React from "react";
-import { ReactDOM } from "react";
+
 
 
 
@@ -14,8 +14,8 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <main className="limegreen">
-      <div className="m-10">
+    <main>
+      <div className="content">
         <link rel="icon" href="./images/logo/ZDLogoNoBackground.png" />
 
 

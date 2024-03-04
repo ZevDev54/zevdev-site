@@ -1,0 +1,145 @@
+$hl:#BAD531;
+$hlshadow:#81AE64;
+
+$white:#F2F7E6;
+$whiteshadow:#C5E5D8;
+
+$black:#1A1540;
+// #698CC2
+// #2D8A50
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: $hl;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Navbar {
+  margin-bottom: 1rem;
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+
+  .linksdiv{
+
+    // @extend .card;
+    @extend .whitecard;
+
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .pagelink{
+      $linkspacing:7.0vw;
+
+      @extend .bigtext;
+      margin-left: $linkspacing;
+      font-size: 1.25rem;
+      
+      &:last-child{
+        margin-right: $linkspacing;
+      }
+    }
+  }
+
+  .img{
+    @extend .whitecard;
+
+    width: 10rem;
+    padding: 0.5rem;
+  }
+
+
+}
+
+.gamelist {
+  display: flex;
+  .gamecard {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+    .gamethumb 
+    {
+      width: 20vw;
+    }
+
+    .gametitle 
+    {
+      text-align: center;
+      margin: auto;
+      
+    }
+  }
+}
+
+.content{
+  margin: 2rem;
+}
+
+
+//text
+.text{
+  color: $black;
+  text-decoration: none;
+
+}
+
+.bigtext{
+  @extend .text;
+  
+  font-family: 'Bowlby One SC';
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+  &:hover{
+    color:$black;
+  }
+}
+
+
+//cards
+.card{
+  border-radius: 1.5rem;
+  // margin: 2rem;
+  padding: 1rem;
+  
+}
+
+.whitecard {
+  @extend .card;
+  background-color:$white;
+  box-shadow: -5px 5px 4px 3px $hlshadow;
+}
+
+.greencard {
+  @extend .card;
+  background-color:$hl;
+  box-shadow: -5px 5px 4px 3px $whiteshadow;
+}
+
+@font-face {
+  font-family: 'Bowlby One SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(http://themes.googleusercontent.com/static/fonts/bowlbyonesc/v5/8ZkeXftTuzKBtmxOYXoReWwgCUWMlcoGHIqZ0R9q_Yo.ttf) format('truetype');
+}
+
