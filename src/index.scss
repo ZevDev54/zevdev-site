@@ -105,6 +105,10 @@ code {
   @extend .text;
   
   font-family: 'Bowlby One SC';
+
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
 a {
