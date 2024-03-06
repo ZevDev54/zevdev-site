@@ -10,7 +10,7 @@ import Games from "./components/Games";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import GamePage from "./components/GamePage";
-
+import games from "./games/games.json"
 
 
 function App() {
@@ -26,11 +26,14 @@ function App() {
             <Routes>
               <Route path="/" element={<Landing />} />
               <Route path="/games" element={<Games />} />
-              <Route path="/lunarcheeseminingsim" element={<GamePage />} />
-              {/* add a for loop which loops thru the games in the gaem list json file. 
-            Add routes for each game, and setup a game page 
-            which takes in the game's json info as props.
-           */}
+              <Route path="/art" element={<Games />} />
+              {
+                games.map( (curGame) => {
+                  return(
+                    <Route path={"/"+curGame.pageslug} element={<GamePage game={curGame}/>}></Route>
+                  )
+                })
+              }
             </Routes>
           </div>
         </BrowserRouter>

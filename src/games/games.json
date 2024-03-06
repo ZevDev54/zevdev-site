@@ -1,0 +1,37 @@
+[
+    {
+        "name":"Lunar Cheese Mining Simulator",
+        "thumbpath": "thumb-lunarcheese.png",
+        "pageslug":"/lunarcheeseminingsim",
+        "iframelink":"https://lunarcheeseminingjanitor.s3.ca-central-1.amazonaws.com/index.html",
+        "description":"Defend your minin robots against corruptions!"
+    },
+    {
+        "name":"Blockour",
+        "thumbpath": "thumb-blockour.png",
+        "pageslug":"/blockour",
+        "iframelink":"https://blockour-webgl.s3.ca-central-1.amazonaws.com/index.html",
+        "description":"colorful parkour!"
+    },
+    {
+        "name":"Smack-A-Rat",
+        "thumbpath": "SmaccARat.png",
+        "pageslug":"/smackarat",
+        "iframelink":"https://smacc-a-rat.s3.ca-central-1.amazonaws.com/index.html"
+    },
+    {
+        "name":"Jam N' Jelly",
+        "thumbpath": "JamNJelly.png",
+        "pageslug":"/jamnjelly",
+        "iframelink":"https://jamandjelly.s3.ca-central-1.amazonaws.com/index.html"
+    },
+    {
+        "name":"Hamster Simulator",
+        "thumbpath": "download.jpg",
+        "pageslug":"/lunarcheeseminingsim",
+        "iframelink":"https://lunarcheeseminingjanitor.s3.ca-central-1.amazonaws.com/index.html",
+        "description":"Defend your minin robots against corruptions!"
+    }
+
+    
+]

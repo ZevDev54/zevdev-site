@@ -68,6 +68,8 @@ code {
 
 .gamelist {
   display: flex;
+  flex-wrap: wrap;
+  
   .gamecard {
     width: 25vw;
     display: flex;

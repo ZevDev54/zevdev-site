@@ -21,6 +21,9 @@ export default function Navbar() {
                 <Link to="/Contact" className='pagelink'>
                     <h2 >Contact</h2>
                 </Link>
+                <Link to="/Art" className='pagelink'>
+                    <h2 >Art</h2>
+                </Link>
             </div>
         </div>
     )
