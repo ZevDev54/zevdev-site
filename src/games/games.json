@@ -24,14 +24,5 @@
         "thumbpath": "JamNJelly.png",
         "pageslug":"/jamnjelly",
         "iframelink":"https://jamandjelly.s3.ca-central-1.amazonaws.com/index.html"
-    },
-    {
-        "name":"Hamster Simulator",
-        "thumbpath": "download.jpg",
-        "pageslug":"/lunarcheeseminingsim",
-        "iframelink":"https://lunarcheeseminingjanitor.s3.ca-central-1.amazonaws.com/index.html",
-        "description":"Defend your minin robots against corruptions!"
     }
-
-    
 ]
