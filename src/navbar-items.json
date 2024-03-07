@@ -1,0 +1,23 @@
+[
+    {
+        "navtitle":"Games",
+        "slug":"/games"
+    },
+    {
+        "navtitle":"Design",
+        "slug":"/design"
+    },
+    {
+        "navtitle":"Electronics",
+        "slug":"/electronics"
+    },
+    {
+        "navtitle":"Art",
+        "slug":"/art"
+    },
+    {
+        "navtitle":"Contact",
+        "slug":"/contact"
+    }
+
+]

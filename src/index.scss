@@ -1,10 +1,10 @@
-$hl:#BAD531;
-$hlshadow:#81AE64;
+$hl: #BAD531;
+$hlshadow: #81AE64;
 
-$white:#F2F7E6;
-$whiteshadow:#C5E5D8;
+$white: #F2F7E6;
+$whiteshadow: #C5E5D8;
 
-$black:#1A1540;
+$black: #1A1540;
 // #698CC2
 // #2D8A50
 
@@ -25,120 +25,207 @@ code {
 }
 
 .Navbar {
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 
 
   display: flex;
   flex-direction: row;
   align-items: center;
-  
 
-  .linksdiv{
-
-    // @extend .card;
-    @extend .whitecard;
-
+  .linklist {
+    list-style: none;
+    display:block;
     margin-left: auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    .pagelink{
-      $linkspacing:7.0vw;
-
-      @extend .bigtext;
-      margin-left: $linkspacing;
-      font-size: 1.25rem;
-      
-      &:last-child{
-        margin-right: $linkspacing;
-      }
+    .navlinkitem{
+      display:block;
+      list-style: none;
     }
   }
 
-  .img{
+    .linksdiv {
+
+      // @extend .card;
+      @extend .whitecard;
+
+      margin-left: auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .pagelink {
+        transition: transform .2s ease-in-out;
+
+        &:hover {
+          transform: scale(1.1);
+
+        }
+
+        $linkspacing: 7.0vw;
+
+        @extend .bigtext;
+        margin-left: $linkspacing;
+        font-size: 1.25rem;
+
+        &:last-child {
+          margin-right: $linkspacing;
+        }
+
+      }
+    }
+  
+
+  .img {
     @extend .whitecard;
 
     width: 10rem;
     padding: 0.5rem;
+
+    transition: transform .2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+
+    }
   }
 
 
 }
+
+// .aligncenter{
+//   text-align: center;
+// }
 
 .gamelist {
   display: flex;
   flex-wrap: wrap;
-  
+  justify-content: center;
+
   .gamecard {
+    transition: transform .2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.01);
+
+    }
+
     width: 25vw;
+    min-width: 200px;
+    margin-bottom: 50px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
+    margin-left: clamp(20px, 1vw, 100px);
+    margin-right: clamp(20px, 1vw, 100px);
+    
 
-    .gamethumb 
-    {
-      width: 20vw;
+
+    .gamethumb {
+      width: 25vw;
+      min-width: 200px;
+      border-radius: 1.5rem;
+      margin-top: 1rem;
+      // margin-left: 1rem;
+      // margin-right: 1rem;
+
     }
 
-    .gametitle 
-    {
-      text-align: center;
-      margin: auto;
-      
+    .gamelabel {
+      @extend .whitecard;
+      margin-top: 1rem;
+
+      .gametitle {
+        font-size: clamp(16px, 4vw, 2rem);
+
+
+        text-align: center;
+        margin-top: 1rem;
+
+      }
+    }
+
+
+  }
+}
+
+.gameregion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .startgamebutton {
+    @extend .greencard;
+
+    border: none;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    // margin: 10rem;
+
+
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .gamepagethumb {
+      margin: 2rem;
+      width: 30vw;
     }
   }
 }
 
-.content{
+
+.content {
   margin: 2rem;
 }
 
 
+
 //text
-.text{
+.text {
   color: $black;
   text-decoration: none;
 
 }
 
-.bigtext{
+.bigtext {
   @extend .text;
-  
+
   font-family: 'Bowlby One SC';
 
-  &:hover{
-    text-decoration: underline;
-  }
+
 }
 
 a {
   color: $black;
   text-decoration: none;
-  &:hover{
-    color:$black;
+
+  &:hover {
+    color: $black;
   }
 }
 
 
 //cards
-.card{
+.card {
   border-radius: 1.5rem;
   // margin: 2rem;
   padding: 1rem;
-  
+
 }
 
 .whitecard {
   @extend .card;
-  background-color:$white;
+  background-color: $white;
   box-shadow: -5px 5px 4px 3px $hlshadow;
 }
 
 .greencard {
   @extend .card;
-  background-color:$hl;
+  background-color: $hl;
   box-shadow: -5px 5px 4px 3px $whiteshadow;
 }
 
@@ -148,4 +235,3 @@ a {
   font-weight: 400;
   src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(http://themes.googleusercontent.com/static/fonts/bowlbyonesc/v5/8ZkeXftTuzKBtmxOYXoReWwgCUWMlcoGHIqZ0R9q_Yo.ttf) format('truetype');
 }
-

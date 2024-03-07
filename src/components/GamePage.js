@@ -1,15 +1,20 @@
-
+import GameFrame from "./GameFrame"
+import React from "react"
 
 
 export default function GamePage(props) {
-
+    const [shown, setShown] = React.useState(false)
     return(
         <>
-
             
-            <div className="whitecard">
-            <iframe src={props.game.iframelink} width="600" height="500" title="Jam N' Jelly" scrolling="no" overflow="hidden" overflow-y="hidden" allowfullscreen="true"></iframe>
             
+            <div className="whitecard gameregion">
+                {/* Show the iframe and hide self button */}
+                {!shown ? <button className="startgamebutton" onClick={() => setShown(!shown)}>
+                    <img src={require('../images/gamethumbnails/' + props.game.thumbpath)} className="gamepagethumb"></img>
+                    <h1 className="bigtext">Click to start {props.game.name}</h1>
+                </button> : null} 
+                <GameFrame game={props.game} active={shown}></GameFrame>
             
             </div>
 
