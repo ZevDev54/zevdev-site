@@ -1,0 +1,21 @@
+[
+    {
+        "category":"Design 20",
+        "path":"media20",
+        "projects":[
+            {
+                "name":"Fortune Cookie Poster",
+                "slug":"fortune-cookie"
+            },
+            {
+                "name":"Working with Grids",
+                "slug":"grids"
+            },
+            {
+                "name":"Fortune Cookie Poster",
+                "slug":"fortune-cookie"
+            }
+                    
+        ]
+    }
+]

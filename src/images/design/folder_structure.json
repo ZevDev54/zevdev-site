@@ -1,0 +1,37 @@
+[
+{"path": "designitems.json", "type": "file"},
+{"path": "filemapper.bash", "type": "file"},
+{"path": "folder_structure.json", "type": "file"},
+{"path": "media20", "type": "directory", "children": [
+    {"path": "fortune-cookie", "type": "directory", "children": [
+        {"path": "FortuneCookiePoster_Analogous.png", "type": "file"},
+        {"path": "FortuneCookiePoster_Complementary.png", "type": "file"},
+        {"path": "FortuneCookiePoster_Monochromatic.png", "type": "file"}
+        ]},
+    {"path": "grids", "type": "directory", "children": [
+        {"path": "GridsCircles_1.png", "type": "file"},
+        {"path": "GridsCircles_2.png", "type": "file"},
+        {"path": "GridsCircles_3.png", "type": "file"},
+        {"path": "GridsText_milkandcookies.png", "type": "file"}
+        ]},
+    {"path": "learning-illustrator", "type": "directory", "children": [
+        {"path": "AnglerFish.png", "type": "file"},
+        {"path": "AnglerFish_shaded.png", "type": "file"},
+        {"path": "AnglerFish_unshaded.png", "type": "file"},
+        {"path": "LetterM.png", "type": "file"},
+        {"path": "LetterZ.png", "type": "file"},
+        {"path": "penguin.png", "type": "file"},
+        {"path": "PrinciplePoster_Repetition-02.png", "type": "file"},
+        {"path": "PrinciplePoster_Repetition-03.png", "type": "file"},
+        {"path": "six_trace_own_icons.png", "type": "file"},
+        {"path": "TracingIconsCurvature.png", "type": "file"},
+        {"path": "TracingImagesPenTool.png", "type": "file"}
+        ]},
+    {"path": "shapes-poster", "type": "directory", "children": [
+        {"path": "BasicShapePoster-01.png", "type": "file"},
+        {"path": "BasicShapePoster-02.png", "type": "file"},
+        {"path": "BasicShapePoster-03.png", "type": "file"},
+        {"path": "redesign-BasicShapePoster.png", "type": "file"}
+        ]}
+    ]}
+]
