@@ -11,6 +11,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import GamePage from "./components/GamePage";
 import games from "./games/games.json"
+import Design from "./components/Design";
 
 
 function App() {
@@ -26,7 +27,9 @@ function App() {
             <Routes>
               <Route path="/" element={<Landing />} />
               <Route path="/games" element={<Games />} />
-              <Route path="/art" element={<Games />} />
+              {/* <Route path="/art" element={<Games />} /> */}
+              <Route path="/design" element={<Design />} />
+
               {
                 games.map( (curGame) => {
                   return(

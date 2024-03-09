@@ -1,0 +1,24 @@
+
+{
+    "name":"Basic Shapes Poster",
+    "containingFolder":"shapes-poster",
+    "description":"Making posters out of basic shapes and color schemes.",
+    "pieces":[
+        {
+            "pieceName":"Basic Shapes 1",
+            "file":"BasicShapePoster-01.png"
+        },
+        {
+            "pieceName":"Basic Shapes 2",
+            "file":"BasicShapePoster-02.png"
+        },
+        {
+            "pieceName":"Basic Shapes 3",
+            "file":"BasicShapePoster-03.png"
+        },
+        {
+            "pieceName":"Basic Shapes 3, re-design",
+            "file":"redesign-BasicShapePoster.png"
+        }
+    ]
+}

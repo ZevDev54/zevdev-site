@@ -1,21 +1,18 @@
-[
-    {
-        "category":"Design 20",
-        "path":"media20",
-        "projects":[
-            {
-                "name":"Fortune Cookie Poster",
-                "slug":"fortune-cookie"
-            },
-            {
-                "name":"Working with Grids",
-                "slug":"grids"
-            },
-            {
-                "name":"Fortune Cookie Poster",
-                "slug":"fortune-cookie"
-            }
-                    
-        ]
-    }
-]
+{
+    "category": "Design 20",
+    "relpath": "media20",
+    "projects": [
+        {
+            "name": "Fortune Cookie Poster",
+            "relpath": "fortune-cookie"
+        },
+        {
+            "name": "Working with Grids",
+            "relpath": "grids"
+        },
+        {
+            "name": "Shapes Posters",
+            "relpath": "shapes-poster"
+        }
+    ]
+}
