@@ -1,0 +1,14 @@
+{
+    "category": "Art 20",
+    "relpath": "art20",
+    "projects": [
+        {
+            "name": "Working with Grids",
+            "relpath": "studio"
+        },
+        {
+            "name": "Sketchbook",
+            "relpath": "sketchbook"
+        }
+    ]
+}

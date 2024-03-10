@@ -12,7 +12,7 @@ import Navbar from "./components/Navbar";
 import GamePage from "./components/GamePage";
 import games from "./games/games.json"
 import Design from "./components/Design";
-
+import ArtPage from "./components/ArtPage";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Landing />} />
               <Route path="/games" element={<Games />} />
-              {/* <Route path="/art" element={<Games />} /> */}
+              <Route path="/art" element={<ArtPage />} />
               <Route path="/design" element={<Design />} />
 
               {
