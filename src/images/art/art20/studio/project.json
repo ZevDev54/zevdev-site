@@ -1,0 +1,37 @@
+
+{
+    "name":"Art 20 studio assignments",
+    "containingFolder":"studio",
+    "description":"Art 20 major assignments.",
+    "pieces":[
+        {
+            "pieceName":"Pastel Blue Buddha",
+            "file":"BlueBuddhaPastel.jpg"
+        },
+        {
+            "pieceName":"Abstract Portrait - Park Ranger",
+            "file":"AbstractPortrait.jpg"
+        },
+        {
+            "pieceName":"Ballpoint Pen",
+            "file":"BallpointPen.jpg"
+        },
+        {
+            "pieceName":"Surrealist Collage - 'Cybirds'",
+            "file":"SurrealistCollage.jpg"
+        },
+        {
+            "pieceName":"Surrealist Painting (from collage)",
+            "file":"SurrealistPainting.jpg"
+        },
+        {
+            "pieceName":"Lino print - Flying Squirrel",
+            "file":"FlyingSquirrelLino.jpg"
+        },
+        {
+            "pieceName":"Lino print - Colored with Pastel",
+            "file":"FlyingSquirrelRedo.jpg"
+        }
+
+    ]
+}

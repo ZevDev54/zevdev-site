@@ -1,31 +1,38 @@
 
-import designProjects from '../images/design/designprojects.json';
-import DesignPageDrawer from './DesignPageDrawer';
+import designProjects from '../images/design/designprojectlist.json';
 
+import PageProjectCardBuilder from './PageProjectCardBuilder';
 
 export default function Design() {
 
+    return(
+        <PageProjectCardBuilder projectsMeta={designProjects} containerDirectory={"images/design/"}></PageProjectCardBuilder>
+    );
     
 
-    const projectsList = designProjects.projects.map(
-        (projectListing) => {
-            const trueProject=require(`../images/design/${designProjects.relpath}/${projectListing.relpath}/designproject.json`)
-            return(
-                <div className='designList'>
-                    <div>
-                        <h1>{trueProject.name}</h1>
-                        <DesignPageDrawer project={trueProject} ></DesignPageDrawer>
-                    </div>
-                </div>
-            )
-        }
-    )
+    // const projectsList = designProjects.projects.map(
+    //     (projectListing) => {
+    //         const trueProject=require(`../images/design/${designProjects.relpath}/${projectListing.relpath}/project.json`)
 
-    return(
-        <>
-            <div className='whitecard '>
-                {projectsList}
-            </div>
-        </>
-    )
+    //         return(
+    //             <>
+    //             {/* draws an individual project */}
+    //                 <h1>{trueProject.name}</h1>
+    //                 <div>
+    //                     {/* <DesignProjectToCardlist project={trueProject} ></DesignProjectToCardlist> */}
+    //                     <ProjectToCardList project={trueProject} projectsDirectoryPath={"images/design/"+designProjects.relpath} ></ProjectToCardList>
+
+    //                 </div>
+    //             </>
+    //         )
+    //     }
+    // )
+
+    // return(
+    //     <>
+    //         <div className='whitecard'>
+    //             {projectsList}
+    //         </div>
+    //     </>
+    // )
 };
