@@ -2,19 +2,23 @@
 {
     "name":"Learning Illustrator",
     "containingFolder":"learning-illustrator",
-    "description":"A series of excercises to learn Adobe Illustrator./",
+    "description":"A series of excercises to learn Adobe Illustrator.",
     "pieces":[
         {
-            "pieceName":"Fortune Cookie Poster, Analogous",
-            "file":"FortuneCookiePoster_Analogous.png"
+            "pieceName":"Word Pair Poster",
+            "file":"Typography-redesign.png"
         },
         {
-            "pieceName":"Fortune Cookie Poster, Complementary",
-            "file":"FortuneCookiePoster_Complementary.png"
+            "pieceName":"Principle of Design Poster - Repetition",
+            "file":"PrinciplePoster_Repetition-03.png"
         },
         {
-            "pieceName":"Fortune Cookie Poster, Monochromatic",
-            "file":"FortuneCookiePoster_Monochromatic.png"
+            "pieceName":"Letter Z",
+            "file":"LetterZ.png"
+        },
+        {
+            "pieceName":"Letter M",
+            "file":"LetterM.png"
         }
     ]
 }
