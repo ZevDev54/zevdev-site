@@ -24,5 +24,12 @@
         "thumbpath": "JamNJelly.png",
         "pageslug":"/jamnjelly",
         "iframelink":"https://jamandjelly.s3.ca-central-1.amazonaws.com/index.html"
+    },
+    {
+        "name":"Snake Stampede",
+        "thumbpath": "JamNJelly.png",
+        "pageslug":"/snakestampede",
+        "iframelink":"https://snake-stamepede.s3.ca-central-1.amazonaws.com/snakestampede8.html"
+    
     }
 ]

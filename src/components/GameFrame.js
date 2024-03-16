@@ -7,7 +7,7 @@ export default function GameFrame(props) {
         <>
             <div className="iframewrapper">
                 {props.active ?
-                 <iframe src={props.game.iframelink} width="600" height="500" title="Jam N' Jelly" scrolling="no" overflow="hidden" overflow-y="hidden" allowfullscreen="true"></iframe>
+                 <iframe src={props.game.iframelink} allow="cross-origin-isolated" width="600" height="500" title="Jam N' Jelly" scrolling="no" overflow="hidden" overflow-y="hidden" allowfullscreen="true"></iframe>
                  : null}
             </div>
         </>

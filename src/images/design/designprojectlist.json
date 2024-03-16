@@ -7,6 +7,10 @@
             "relpath": "fortune-cookie"
         },
         {
+            "name": "Learning Illustrator",
+            "relpath": "learning-illustrator"
+        },
+        {
             "name": "Working with Grids",
             "relpath": "grids"
         },
