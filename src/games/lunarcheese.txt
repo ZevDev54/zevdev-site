@@ -1,8 +1,8 @@
-USE FULLSCREEN!
+__USE FULLSCREEN!__
 
 Defend the cheese-mining robots from deadly corruption with your trusty broom!
 
-CONTROLS
+#CONTROLS
 
 Move with WASD or arrow keys
 

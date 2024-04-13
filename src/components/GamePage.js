@@ -1,5 +1,7 @@
 import GameFrame from "./GameFrame"
 import React from "react"
+import MarkdownRenderer from "./MarkdownRenderer"
+import TextFileReader from "./TxtRenderer"
 
 
 export default function GamePage(props) {
@@ -19,7 +21,12 @@ export default function GamePage(props) {
             </div>
 
             <div className="whitecard">
-            <p>{props.game.description}</p>
+
+            {/* <p>{require("../games/"+props.game.descriptionPath)}</p> */}
+            {/* <TextFileReader filePath={"../games/lunarcheese.txt"}></TextFileReader> */}
+            {/* <TextFileReader filePath={"./test.txt"}></TextFileReader> */}
+
+            <MarkdownRenderer filePath={props.game.MdPath}></MarkdownRenderer>
             </div>
         </>
     )
