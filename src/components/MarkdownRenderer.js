@@ -20,17 +20,19 @@ function MarkdownRenderer({ filePath }) {
   //   fetchMD()
   // }, [filePath])
 
+
+  const mdPath = require(`../games/${filePath}.md`)
   useEffect(() => {
     const fetchMD = () => {
-      import(`../games/${filePath}.md`)
-        .then(file => fetch(file.default))
+        fetch(mdPath)
         .then(response => response.text())
         .then(text => setMarkdown(text))
         .catch(error => console.error('Error fetching markdown:', error));
     };
   
     fetchMD();
-  }, [filePath]);
+  }, [mdPath]);
+
 
 
   // const markdown = "*just* a link: [link](https://zevdev.net)"
