@@ -11,7 +11,6 @@ export default function FooterContent() {
                 <div className='socialLink'>
                     <InstagramIcon className='instagramIcon' />
 
-                    <p>Instagram</p>
 
                 </div>
             </ExternalLink>
