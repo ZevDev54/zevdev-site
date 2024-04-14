@@ -14,7 +14,7 @@ export default function GamePage(props) {
                 {/* Show the iframe and hide self button */}
                 {!shown ? <button className="startgamebutton" onClick={() => setShown(!shown)}>
                     <img src={require('../images/gamethumbnails/' + props.game.thumbpath)} className="gamepagethumb"></img>
-                    <h1 className="bigtext">Click to start {props.game.name}</h1>
+                    <h1 className="bigtext whitecard">Click to start {props.game.name}</h1>
                 </button> : null} 
                 <GameFrame game={props.game} active={shown}></GameFrame>
             

@@ -26,8 +26,13 @@ code {
 
 
 .paragraph{
-  font-size: 15pt;
-  font-family: "Roboto Mono", "Sans Serif";
+  font-size: clamp(16px, 4vw, 2rem);
+  font-family: "Roboto";
+  line-height: 2em;
+}
+
+.centerText{
+  text-align: center;
 }
 
 .zcardlist{
@@ -103,8 +108,10 @@ justify-content: space-evenly;
       // white-space: nowrap;
 
       .zcardtitle {
+        // @extend .bigtext;
+        font-family: "Roboto";
         text-align: center;
-
+        
         font-size: clamp(16px, 4vw, 2rem);
 
 
@@ -185,8 +192,31 @@ justify-content: space-evenly;
 
 }
 
+.footerContent {
+  margin-top:auto;
+  display: flex;
+  justify-content: space-between;
 
+  margin: 1rem;
+}
 
+.socialLink{
+  display: flex;
+}
+
+.instagramIcon{
+  width: 2rem;
+  padding: 0.5rem;
+}
+
+.mainAndFooterWrapper{
+  
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .aligncenter{
   text-align: center;
@@ -228,61 +258,6 @@ justify-content: space-evenly;
 //   }
 // }
 
-
-.gamelist {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-
-  .gamecard {
-    transition: transform .2s ease-in-out;
-
-    &:hover {
-      transform: scale(1.01);
-
-    }
-
-    width: 25vw;
-    min-width: 200px;
-    margin-bottom: 50px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: clamp(20px, 1vw, 100px);
-    margin-right: clamp(20px, 1vw, 100px);
-    
-
-
-    .gamethumb {
-      width: 25vw;
-      min-width: 200px;
-      border-radius: 1.5rem;
-      margin-top: 1rem;
-      filter: drop-shadow(0px 0px 10px $hlshadow);
-      // margin-left: 1rem;
-      // margin-right: 1rem;
-
-    }
-
-    .gamelabel {
-      @extend .whitecard;
-      margin-top: 1rem;
-
-      .gametitle {
-        font-size: clamp(16px, 4vw, 2rem);
-
-
-        text-align: center;
-        margin-top: 1rem;
-
-      }
-    }
-
-
-  }
-}
 
 .gameregion {
   display: flex;
@@ -370,4 +345,18 @@ a {
   font-style: normal;
   font-weight: 400;
   src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(http://themes.googleusercontent.com/static/fonts/bowlbyonesc/v5/8ZkeXftTuzKBtmxOYXoReWwgCUWMlcoGHIqZ0R9q_Yo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/7XUFZ5tgS-tD6QamInJTcU3KvHLhcNjEHFQzwNtdMQY.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito-Regular'), url(http://themes.googleusercontent.com/static/fonts/nunito/v4/kpI87QY2ce-mk2ZnKb-r0g.ttf) format('truetype');
 }
