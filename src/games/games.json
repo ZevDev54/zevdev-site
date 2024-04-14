@@ -1,35 +1,80 @@
 [
+
     {
-        "name":"Lunar Cheese Mining Simulator",
+        "name":"Lunar Cheese Mining Janitor",
         "thumbpath": "thumb-lunarcheese.png",
         "pageslug":"/lunarcheeseminingsim",
         "iframelink":"https://lunarcheeseminingjanitor.s3.ca-central-1.amazonaws.com/index.html",
-        "description":"Defend your minin robots against corruptions!"
+        "MdPath":"lunarcheese-desc"
+    },
+    {
+        "name":"Jam N' Jelly",
+        "thumbpath": "JamNJelly.png",
+        "pageslug":"/jamnjelly",
+        "iframelink":"https://jamandjelly.s3.ca-central-1.amazonaws.com/index.html",
+        "MdPath":"jam-n-jelly-desc"
+
     },
     {
         "name":"Blockour",
         "thumbpath": "blockour.png",
         "pageslug":"/blockour",
         "iframelink":"https://blockour-webgl.s3.ca-central-1.amazonaws.com/index.html",
-        "description":"colorful parkour!"
+        "MdPath":"blockour-desc"
     },
     {
         "name":"Smack-A-Rat",
         "thumbpath": "SmaccARat.png",
         "pageslug":"/smackarat",
-        "iframelink":"https://smacc-a-rat.s3.ca-central-1.amazonaws.com/index.html"
+        "iframelink":"https://smacc-a-rat.s3.ca-central-1.amazonaws.com/index.html",
+        "MdPath":"smacc-a-rat-desc"
+
     },
     {
-        "name":"Jam N' Jelly",
-        "thumbpath": "JamNJelly.png",
-        "pageslug":"/jamnjelly",
-        "iframelink":"https://jamandjelly.s3.ca-central-1.amazonaws.com/index.html"
+        "name":"Trangles",
+        "thumbpath": "trangles.png",
+        "pageslug":"/trangles",
+        "iframelink":"https://trangles.s3.ca-central-1.amazonaws.com/index.html",
+        "MdPath":"trangles-desc"
+
+    
+    },
+    {
+        "name":"Lost in Transit",
+        "thumbpath": "LostInTransit.png",
+        "pageslug":"/lostintransit",
+        "iframelink":"https://lost-in-transit-webgl.s3.ca-central-1.amazonaws.com/index.html",
+        "MdPath":"lost-in-transit-desc"
+    },
+    {
+        "name":"Buff Bird Climbing Sim",
+        "thumbpath": "BuffBirdCoverArt.png",
+        "pageslug":"/buffbird",
+        "iframelink":"https://birdclimbing.s3.ca-central-1.amazonaws.com/index.html",
+        "MdPath":"buff-bird-desc"
+    },
+    {
+        "name":"The Last Blaze",
+        "thumbpath": "LastBlaze.png",
+        "pageslug":"/lastblaze",
+        "iframelink":"https://last-blaze-webgl.s3.ca-central-1.amazonaws.com/index.html",
+        "MdPath":"last-blaze-desc"
+    },
+    {
+        "name":"Bump",
+        "thumbpath": "BumpThumbnail.png",
+        "pageslug":"/bump",
+        "iframelink":"https://bump-webgl.s3.ca-central-1.amazonaws.com/index.html",
+        "MdPath":"bump-desc"
     },
     {
         "name":"Snake Stampede",
-        "thumbpath": "JamNJelly.png",
-        "pageslug":"/snakestampede",
-        "iframelink":"https://snake-stamepede.s3.ca-central-1.amazonaws.com/snakestampede8.html"
-    
+        "thumbpath": "SnakeStampedeComingSoon.png",
+        "pageslug":"/games",
+        "iframelink":"https://snake-stamepede.s3.ca-central-1.amazonaws.com/snakestampede8.html",
+        "MdPath":"default-desc"
     }
+
+
+
 ]

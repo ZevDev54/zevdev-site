@@ -6,6 +6,8 @@ export default function Card({ imgPath, title }) {
         <div className='zcard'>
 
                 <img className="zcardimg" src={imgPath}></img>
+                {/* <ModalImage className="zcardimg" small={imgPath} large={imgPath} hideDownload="true"></ModalImage> */}
+
                 <div className="zcardlabel">
                     <h1 className="zcardtitle">{title}</h1>
                 </div>
