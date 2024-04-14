@@ -33,10 +33,12 @@ function MarkdownRenderer({ filePath }) {
   //   fetchMD();
   // }, [mdPath]);
 
-  const mdPath = require(`../games/${filePath}.md`);
 
 useEffect(() => {
   const fetchMD = () => {
+    const mdPath = require(`../games/${filePath}`);
+    console.log("Markdown path is: "+mdPath);
+
     console.log('Fetching markdown...');
     fetch(mdPath)
       .then(response => {
@@ -50,17 +52,17 @@ useEffect(() => {
       .catch(error => console.error('Error fetching markdown:', error));
   };
 
-  console.log('mdPath:', mdPath);
-
   fetchMD();
-}, [mdPath]);
+});
+
+
 
 
 console.log("Current markdown is:"+markdown)
   // const markdown = "*just* a link: [link](https://zevdev.net)"
  return(
   
-  <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
+  <ReactMarkdown remarkPlugins={[remarkGfm]} >{markdown}</ReactMarkdown>
 
   
  )
