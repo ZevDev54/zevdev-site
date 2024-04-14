@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Markdown from 'react-markdown';
+
 import ReactMarkdown from 'react-markdown';
 
-import markTest from './test.md'
+
 import remarkGfm from 'remark-gfm'
 
 function MarkdownRenderer({ filePath }) {
@@ -21,23 +21,46 @@ function MarkdownRenderer({ filePath }) {
   // }, [filePath])
 
 
-  const mdPath = require(`../games/${filePath}.md`)
-  useEffect(() => {
-    const fetchMD = () => {
-        fetch(mdPath)
-        .then(response => response.text())
-        .then(text => setMarkdown(text))
-        .catch(error => console.error('Error fetching markdown:', error));
-    };
+  // const mdPath = require(`../games/${filePath}.md`)
+  // useEffect(() => {
+  //   const fetchMD = () => {
+  //       fetch(mdPath)
+  //       .then(response => response.text())
+  //       .then(text => setMarkdown(text))
+  //       .catch(error => console.error('Error fetching markdown:', error));
+  //   };
   
-    fetchMD();
-  }, [mdPath]);
+  //   fetchMD();
+  // }, [mdPath]);
+
+  const mdPath = require(`../games/${filePath}.md`);
+
+useEffect(() => {
+  const fetchMD = () => {
+    console.log('Fetching markdown...');
+    fetch(mdPath)
+      .then(response => {
+        console.log('Received response:', response);
+        return response.text();
+      })
+      .then(text => {
+        console.log('Received markdown text:', text);
+        setMarkdown(text);
+      })
+      .catch(error => console.error('Error fetching markdown:', error));
+  };
+
+  console.log('mdPath:', mdPath);
+
+  fetchMD();
+}, [mdPath]);
 
 
-
+console.log("Current markdown is:"+markdown)
   // const markdown = "*just* a link: [link](https://zevdev.net)"
  return(
-  <ReactMarkdown remarkPlugins={[remarkGfm]} children={markdown}></ReactMarkdown>
+  
+  <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
 
   
  )
