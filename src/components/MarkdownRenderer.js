@@ -62,7 +62,7 @@ console.log("Current markdown is:"+markdown)
   // const markdown = "*just* a link: [link](https://zevdev.net)"
  return(
   
-  <ReactMarkdown remarkPlugins={[remarkGfm]} >{markdown}</ReactMarkdown>
+  <ReactMarkdown className="markDown" remarkPlugins={[remarkGfm]} >{markdown}</ReactMarkdown>
 
   
  )

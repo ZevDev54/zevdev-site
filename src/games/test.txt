@@ -7,11 +7,13 @@
 * Left click on golden block to beat level
 * R to restart
 
+
 ### How to play
 
 - Parkour through colorful, randomly generated levels
 - Reach the gold block and click it to beat the level
 - Repeat... forever!
+
 
 ### Reflection
 
