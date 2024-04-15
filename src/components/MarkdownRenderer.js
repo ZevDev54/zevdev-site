@@ -1,29 +1,68 @@
 import React, { useState, useEffect } from 'react';
-import Markdown from 'react-markdown';
+
 import ReactMarkdown from 'react-markdown';
 
-import markTest from './test.md'
+
 import remarkGfm from 'remark-gfm'
 
 function MarkdownRenderer({ filePath }) {
-  const [markdown, setMarkdown] = useState('');
+  const [markdown, setMarkdown] = useState('loading description...');
 
-  useEffect( () => {
-    const fetchMD = async() => {
-      const file = await import(`../games/${filePath}.md`);
-      const response = await fetch(file.default);
-      const text = await response.text();
+  // useEffect( () => {
+  //   const fetchMD = async() => {
+  //     const file = await import(`../games/${filePath}.md`)
+  //     const response = await fetch(file.default);
+  //     const text = await response.text();
 
-      setMarkdown(text)
-    }
+  //     setMarkdown(text)
+  //   }
 
-    fetchMD()
-  }, [filePath])
+  //   fetchMD()
+  // }, [filePath])
 
 
+  // const mdPath = require(`../games/${filePath}.md`)
+  // useEffect(() => {
+  //   const fetchMD = () => {
+  //       fetch(mdPath)
+  //       .then(response => response.text())
+  //       .then(text => setMarkdown(text))
+  //       .catch(error => console.error('Error fetching markdown:', error));
+  //   };
+  
+  //   fetchMD();
+  // }, [mdPath]);
+
+
+useEffect(() => {
+  const fetchMD = () => {
+    const mdPath = require(`../games/${filePath}`);
+    console.log("Markdown path is: "+mdPath);
+
+    console.log('Fetching markdown...');
+    fetch(mdPath)
+      .then(response => {
+        console.log('Received response:', response);
+        return response.text();
+      })
+      .then(text => {
+        console.log('Received markdown text:', text);
+        setMarkdown(text);
+      })
+      .catch(error => console.error('Error fetching markdown:', error));
+  };
+
+  fetchMD();
+});
+
+
+
+
+console.log("Current markdown is:"+markdown)
   // const markdown = "*just* a link: [link](https://zevdev.net)"
  return(
-  <ReactMarkdown remarkPlugins={[remarkGfm]} children={markdown}></ReactMarkdown>
+  
+  <ReactMarkdown className="markDown" remarkPlugins={[remarkGfm]} >{markdown}</ReactMarkdown>
 
   
  )

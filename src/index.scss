@@ -31,6 +31,26 @@ code {
   line-height: 2em;
 }
 
+.markDown{
+  margin: 1rem;
+  color: #1A1540;
+  h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #1A1540;
+    margin-top: 2rem;
+  }
+
+  ul{
+    list-style-type: disc;
+
+    li{
+      color: #1A1540;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
 .centerText{
   text-align: center;
 }
@@ -263,6 +283,8 @@ justify-content: space-evenly;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-bottom: 2rem;
 
   .startgamebutton {
     @extend .greencard;

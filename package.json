@@ -10,6 +10,7 @@
     "json-loader": "^0.5.7",
     "list-react-files": "^0.2.0",
     "marked": "^12.0.1",
+    "raw-loader": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-external-link": "^2.3.1",
