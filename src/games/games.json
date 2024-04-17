@@ -70,16 +70,9 @@
     {
         "name":"Snake Stampede",
         "thumbpath": "SnakeStampedeComingSoon.png",
-        "pageslug":"/games",
+        "pageslug":"/snakestampede",
         "iframelink":"https://snake-stamepede.s3.ca-central-1.amazonaws.com/snakestampede8.html",
         "MdPath":"default-desc.txt"
-    },
-    {
-        "name":"Test Game",
-        "thumbpath": "SnakeStampedeComingSoon.png",
-        "pageslug":"/testgame",
-        "iframelink":"https://snake-stamepede.s3.ca-central-1.amazonaws.com/snakestampede8.html",
-        "txtPath":"test.txt"
     }
 
 
