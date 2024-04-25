@@ -73,8 +73,14 @@
         "pageslug":"/snakestampede",
         "iframelink":"https://snake-stamepede.s3.ca-central-1.amazonaws.com/snakestampede8.html",
         "MdPath":"default-desc.txt"
+    },
+    {
+        "name":"MR. Synth",
+        "thumbpath": "MrSynth.jpg",
+        "pageslug":"/mrsynth",
+        "iframelink":"https://www.youtube.com/watch?v=5FAyFKfrF_0",
+        "MdPath":"default-desc.txt"
     }
-
 
 
 ]
