@@ -35,6 +35,8 @@ function App() {
                   <Route path="/games" element={<Games />} />
                   <Route path="/art" element={<ArtPage />} />
                   <Route path="/design" element={<Design />} />
+                  <Route path="/physical-projects" element={<PhysicalProjectPage />} />
+
                   <Route path="/mr-synth" element={<PhysicalProjectPage />} />
 
 
