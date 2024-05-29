@@ -1,0 +1,20 @@
+
+{
+    "name":"Fortune Cookie Poster assignment",
+    "containingFolder":"fortune-cookie",
+    "description":"We got a fortune cookie, and our assignment was to use the quote and lucky numbers to create a swiss modern design themed poster.",
+    "pieces":[
+        {
+            "pieceName":"Fortune Cookie Poster, Analogous",
+            "file":"FortuneCookiePoster_Analogous.png"
+        },
+        {
+            "pieceName":"Fortune Cookie Poster, Complementary",
+            "file":"FortuneCookiePoster_Complementary.png"
+        },
+        {
+            "pieceName":"Fortune Cookie Poster, Monochromatic",
+            "file":"FortuneCookiePoster_Monochromatic.png"
+        }
+    ]
+}
