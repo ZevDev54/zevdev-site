@@ -77,6 +77,19 @@ justify-content: space-evenly;
 
 }
 
+.bigCard
+{
+  @extend .zcard;
+  width: 80%;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: red ;
+  .zcardimg{
+    width: 40vw;
+  }
+
+}
+
 .zcard{
   @extend .greencard;
 
