@@ -36,15 +36,12 @@ function App() {
                   <Route path="/games" element={<Games />} />
                   <Route path="/art" element={<ArtPage />} />
                   <Route path="/design" element={<Design />} />
-<<<<<<< HEAD
                   <Route path="/physical-projects" element={<PhysicalProjectPage />} />
 
                   <Route path="/mr-synth" element={<PhysicalProjectPage />} />
-=======
                   <Route path="/photography" element={<Photography />} />
 
                   {/* <Route path="/mr-synth" element={<PhysicalProjectPage />} /> */}
->>>>>>> dev
 
 
                   {
