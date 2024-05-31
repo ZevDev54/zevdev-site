@@ -1,0 +1,24 @@
+
+{
+    "name":"Grids Grids Grids",
+    "containingFolder":"grids",
+    "description":"Practiced designing using grids.",
+    "pieces":[
+        {
+            "pieceName":"Grids, 1",
+            "file":"GridsCircles_1.png"
+        },
+        {
+            "pieceName":"Grids, 2",
+            "file":"GridsCircles_2.png"
+        },
+        {
+            "pieceName":"Grids, 3",
+            "file":"GridsCircles_3.png"
+        },
+        {
+            "pieceName":"Grids, Typography",
+            "file":"GridsText_milkandcookies.png"
+        }
+    ]
+}

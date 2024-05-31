@@ -1,0 +1,22 @@
+{
+    "category": "Design 20",
+    "relpath": "media20/photography",
+    "projects": [
+        {
+            "name": "Zine",
+            "relpath": "zine"
+        },
+        {
+            "name": "Maximalism",
+            "relpath": "maximalism"
+        },
+        {
+            "name": "Mental Health Awareness",
+            "relpath": "mental-health"
+        },
+        {
+            "name": "Minimalism",
+            "relpath": "minimalism"
+        }
+    ]
+}

@@ -1,9 +1,9 @@
 
 
-export default function Card({ imgPath, title }) {
+export default function Card({ imgPath, title, cardStyle='zcard' }) {
     return(
         <>
-        <div className='zcard'>
+        <div className={'zcard'}>
 
                 <img className="zcardimg" src={imgPath}></img>
                 {/* <ModalImage className="zcardimg" small={imgPath} large={imgPath} hideDownload="true"></ModalImage> */}

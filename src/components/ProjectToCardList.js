@@ -9,7 +9,7 @@ export default function ProjectToCardList({ project, projectsDirectoryPath}) {
         //const p = require(path.toString())
 
         return (
-                <Card imgPath={require("../" + projectsDirectoryPath + "/" + project.containingFolder + "/" + piece.file)} title={piece.pieceName}></Card>
+                <Card className="bigCard" imgPath={require("../" + projectsDirectoryPath + "/" + project.containingFolder + "/" + piece.file)} title={piece.pieceName}></Card>
         )
     }
     );

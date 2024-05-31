@@ -6,7 +6,10 @@ import PageProjectCardBuilder from './PageProjectCardBuilder';
 export default function Design() {
 
     return(
+        <>
+        <iframe src="https://drive.google.com/file/d/1mlMNNhPsQgboUu7oBLUwBuPDSMgvBVcc/preview" width="640" height="480" allow="autoplay"></iframe>
         <PageProjectCardBuilder projectsMeta={designProjects} containerDirectory={"images/design/"}></PageProjectCardBuilder>
+        </>
     );
     
 
