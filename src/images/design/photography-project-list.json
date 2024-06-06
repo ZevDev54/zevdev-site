@@ -3,6 +3,10 @@
     "relpath": "media20/photography",
     "projects": [
         {
+            "name": "Photography Walks",
+            "relpath": "PhotoWalks"
+        },
+        {
             "name": "Zine",
             "relpath": "zine"
         },
