@@ -1,0 +1,28 @@
+
+{
+    "name":"Photography Walks",
+    "containingFolder":"PhotoWalks",
+    "description":"We went on photo walks throughout the semester with various prompts of the day. Here is one photo for each of the walks!",
+    "pieces":[
+        {
+            "pieceName":"Primary Colors",
+            "file":"ExposureCompensation.jpg"
+        },
+        {
+            "pieceName":"Abandoned Passion",
+            "file":"EmotionalValue.jpg"
+        },
+        {
+            "pieceName":"Spokes",
+            "file":"Framing.jpg"
+        },
+        {
+            "pieceName":"Buddies",
+            "file":"orientation.jpg"
+        },
+        {
+            "pieceName":"Owl Spotting",
+            "file":"PhotowalkOutside.jpg"
+        }
+    ]
+}
