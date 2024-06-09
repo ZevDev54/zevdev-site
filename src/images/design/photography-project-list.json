@@ -3,16 +3,16 @@
     "relpath": "media20/photography",
     "projects": [
         {
+            "name": "YouTube Thumbnails",
+            "relpath": "YTThumbs"
+        },
+        {
             "name": "Photography Walks",
             "relpath": "PhotoWalks"
         },
         {
             "name": "Zine",
             "relpath": "zine"
-        },
-        {
-            "name": "Maximalism",
-            "relpath": "maximalism"
         },
         {
             "name": "Mental Health Awareness",

@@ -265,6 +265,13 @@ justify-content: space-evenly;
   text-align: center;
 }
 
+.slidesContainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 // .designList{
 //   display: flex;

@@ -4,5 +4,37 @@
     "containingFolder":"zine",
     "description":"Making a Zine",
     "pieces":[
+        {
+            "pieceName":"airplane",
+            "file":"airplane.png"
+        },
+        {
+            "pieceName":"Silly Goose",
+            "file":"sillygoos.png"
+        },
+        {
+            "pieceName":"Power Pole",
+            "file":"PowerPole.png"
+        },
+        {
+            "pieceName":"Secret Signals",
+            "file":"CellTower.png"
+        },
+        {
+            "pieceName":"tunnel.png",
+            "file":"HallwayMoreCrunched.png"
+        },
+        {
+            "pieceName":"SecurityCamera.png",
+            "file":"SecurityCamera.png"
+        },
+        {
+            "pieceName":"Chimney",
+            "file":"Chimney.png"
+        },
+        {
+            "pieceName":"Flowers",
+            "file":"Flowaz.png"
+        }
     ]
 }

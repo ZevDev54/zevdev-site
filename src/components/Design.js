@@ -7,8 +7,16 @@ export default function Design() {
 
     return(
         <>
-        <iframe src="https://drive.google.com/file/d/1mlMNNhPsQgboUu7oBLUwBuPDSMgvBVcc/preview" width="640" height="480" allow="autoplay"></iframe>
         <PageProjectCardBuilder projectsMeta={designProjects} containerDirectory={"images/design/"}></PageProjectCardBuilder>
+        
+        
+        
+        <div className="whitecard slidesContainer">
+        <h1 className='bigtext aligncenter'>Brand Identity Presentation</h1>
+        <p className='aligncenter projectDescription'>We used a prompt generator to create a fictional company which we would then make a logo and brand identity for. My company was called "Squirrel Forecasting", which boasted AI cloud computing powered weather prediction.</p>
+            <iframe  src="https://drive.google.com/file/d/1mlMNNhPsQgboUu7oBLUwBuPDSMgvBVcc/preview" width="640" height="480" allow="autoplay"></iframe>
+        </div>
+        
         </>
     );
     

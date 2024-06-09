@@ -3,6 +3,10 @@
     "relpath": "media20/graphic-design",
     "projects": [
         {
+            "name": "Maximalism",
+            "relpath": "maximalism"
+        },
+        {
             "name": "Fortune Cookie Poster",
             "relpath": "fortune-cookie"
         },

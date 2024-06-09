@@ -1,0 +1,32 @@
+
+{
+    "name":"Mock YouTube Thumbnails",
+    "containingFolder":"YTThumbs",
+    "description":"I partnered with Elliott on this assignment to create mock-YouTube thumbnails for a variety of video types. We made a monster-spotting-red-circle clickbait thumbnail, a Mr Beast type challenge thumbnail, some philosophy and short film style thumbails, and a BroDude weight lifting style thumbnail.",
+    "pieces":[
+        {
+            "pieceName":"Mr. Beast Challenge",
+            "file":"YTThumb_MrBeast.png"
+        },
+        {
+            "pieceName":"Monster-Sighting Clickbait",
+            "file":"YTThumb_RedCircle.png"
+        },
+        {
+            "pieceName":"Philosophy",
+            "file":"YTThumb_PeacefulLife.png"
+        },
+        {
+            "pieceName":"Lifestyle",
+            "file":"YTThumb_StudyTechnique.png"
+        },
+        {
+            "pieceName":"Short Film",
+            "file":"YTThumb_GoOutside.png"
+        },
+        {
+            "pieceName":"Weight Lifting",
+            "file":"YTThumb_WeightLifting.png"
+        }
+    ]
+}
