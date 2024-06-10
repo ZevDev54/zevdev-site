@@ -100,12 +100,12 @@ justify-content: space-evenly;
 
     // margin: 1rem;
     // min-width: 200px;
-    margin-bottom: 50px;
-    width: 25vw;
-    min-width: 200px;
+    margin-bottom: 5vh;
+    width: clamp(25vw, 300px, 95%);
+    // min-width: 200px;
 
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
 
 
     display: flex;
@@ -125,10 +125,14 @@ justify-content: space-evenly;
 
 
     .zcardimg {
-       width: 20vw;
+      width: auto;
+      max-width: 90%;
+      // width: auto;
+      max-height: 90vh;
+      // max-width: 95%;
       
       min-width: 200px;
-      border-radius: 1.5rem;
+      border-radius: 0.5rem;
       margin-top: 1rem;
       filter: drop-shadow(0px 0px 10px $hlshadow);
       // margin-left: 1rem;

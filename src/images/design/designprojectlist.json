@@ -11,16 +11,17 @@
             "relpath": "fortune-cookie"
         },
         {
+            "name": "Shapes Posters",
+            "relpath": "shapes-poster"
+        },
+        {
             "name": "Learning Illustrator",
             "relpath": "learning-illustrator"
         },
         {
             "name": "Working with Grids",
             "relpath": "grids"
-        },
-        {
-            "name": "Shapes Posters",
-            "relpath": "shapes-poster"
         }
+
     ]
 }
