@@ -208,7 +208,7 @@ justify-content: space-evenly;
 
         }
 
-        $linkspacing: 7.0vw;
+        $linkspacing: 4.0vw;
 
         @extend .bigtext;
         margin-left: $linkspacing;
@@ -225,7 +225,7 @@ justify-content: space-evenly;
   .img {
     @extend .whitecard;
 
-    width: 10rem;
+    width: clamp(8vw, 30px, 80%);
     padding: 0.5rem;
 
     transition: transform .2s ease-in-out;
@@ -359,7 +359,7 @@ justify-content: space-evenly;
 
 .bigtext {
   @extend .text;
-
+  
   font-family: 'Bowlby One SC';
 
 
