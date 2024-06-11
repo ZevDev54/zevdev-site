@@ -77,6 +77,19 @@ justify-content: space-evenly;
 
 }
 
+.bigCard
+{
+  @extend .zcard;
+  width: 80%;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: red ;
+  .zcardimg{
+    width: 40vw;
+  }
+
+}
+
 .zcard{
   @extend .greencard;
 
@@ -87,12 +100,12 @@ justify-content: space-evenly;
 
     // margin: 1rem;
     // min-width: 200px;
-    margin-bottom: 50px;
-    width: 25vw;
-    min-width: 200px;
+    margin-bottom: 5vh;
+    width: clamp(25vw, 300px, 95%);
+    // min-width: 200px;
 
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
 
 
     display: flex;
@@ -112,10 +125,14 @@ justify-content: space-evenly;
 
 
     .zcardimg {
-       width: 20vw;
+      width: auto;
+      max-width: 90%;
+      // width: auto;
+      max-height: 90vh;
+      // max-width: 95%;
       
       min-width: 200px;
-      border-radius: 1.5rem;
+      border-radius: 0.5rem;
       margin-top: 1rem;
       filter: drop-shadow(0px 0px 10px $hlshadow);
       // margin-left: 1rem;
@@ -147,10 +164,17 @@ justify-content: space-evenly;
 
 }
 
+.projectDescription{
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+}
 
 .Navbar {
   margin-bottom: 4rem;
 
+  
 
   display: flex;
   flex-direction: row;
@@ -185,7 +209,7 @@ justify-content: space-evenly;
 
         }
 
-        $linkspacing: 7.0vw;
+        $linkspacing: 5.0vw;
 
         @extend .bigtext;
         margin-left: $linkspacing;
@@ -202,7 +226,7 @@ justify-content: space-evenly;
   .img {
     @extend .whitecard;
 
-    width: 10rem;
+    width: clamp(8vw, 30px, 80%);
     padding: 0.5rem;
 
     transition: transform .2s ease-in-out;
@@ -230,6 +254,15 @@ justify-content: space-evenly;
 
 .instagramIcon{
   width: 2rem;
+  height: 2rem;
+
+  padding: 0.5rem;
+}
+
+.itchIcon{
+  width: 2rem;
+  height: 2rem;
+
   padding: 0.5rem;
 }
 
@@ -246,6 +279,13 @@ justify-content: space-evenly;
   text-align: center;
 }
 
+.slidesContainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 // .designList{
 //   display: flex;
@@ -329,7 +369,7 @@ justify-content: space-evenly;
 
 .bigtext {
   @extend .text;
-
+  
   font-family: 'Bowlby One SC';
 
 
@@ -364,6 +404,19 @@ a {
   @extend .card;
   background-color: $hl;
   box-shadow: -5px 5px 4px 3px $whiteshadow;
+}
+
+.landingFrog{
+  width: clamp(15vw, 100px, 500px);
+  margin: 2rem;
+
+}
+
+.divAlignCenter{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 @font-face {

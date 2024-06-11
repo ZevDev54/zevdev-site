@@ -16,19 +16,19 @@
 
     },
     {
-        "name":"Blockour",
-        "thumbpath": "blockour.png",
-        "pageslug":"/blockour",
-        "iframelink":"https://blockour-webgl.s3.ca-central-1.amazonaws.com/index.html",
-        "MdPath":"blockour-desc.txt"
-    },
-    {
         "name":"Smack-A-Rat",
         "thumbpath": "SmaccARat.png",
         "pageslug":"/smackarat",
         "iframelink":"https://smacc-a-rat.s3.ca-central-1.amazonaws.com/index.html",
         "MdPath":"smacc-a-rat-desc.txt"
 
+    },
+    {
+        "name":"Blockour",
+        "thumbpath": "blockour.png",
+        "pageslug":"/blockour",
+        "iframelink":"https://blockour-webgl.s3.ca-central-1.amazonaws.com/index.html",
+        "MdPath":"blockour-desc.txt"
     },
     {
         "name":"Trangles",
@@ -70,11 +70,9 @@
     {
         "name":"Snake Stampede",
         "thumbpath": "SnakeStampedeComingSoon.png",
-        "pageslug":"/snakestampede",
+        "pageslug":"/games",
         "iframelink":"https://snake-stamepede.s3.ca-central-1.amazonaws.com/snakestampede8.html",
         "MdPath":"default-desc.txt"
     }
-
-
 
 ]

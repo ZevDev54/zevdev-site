@@ -4,12 +4,20 @@
         "slug":"/games"
     },
     {
-        "navtitle":"Design",
+        "navtitle":"Graphic Design",
         "slug":"/design"
+    },
+    {
+        "navtitle":"Photography",
+        "slug":"/photography"
     },
     {
         "navtitle":"Art",
         "slug":"/art"
+    },
+    {
+        "navtitle":"Physical Projects",
+        "slug":"/physical-projects"
     }
 
 ]

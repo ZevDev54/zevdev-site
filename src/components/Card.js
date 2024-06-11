@@ -1,17 +1,21 @@
+import { Link } from "react-router-dom";
 
 
-export default function Card({ imgPath, title }) {
+export default function Card({ imgPath, title, link, cardStyle='zcard' }) {
     return(
         <>
-        <div className='zcard'>
-
+        <Link to={link} className="zcard">
+        {/* <div> */}
+            
                 <img className="zcardimg" src={imgPath}></img>
                 {/* <ModalImage className="zcardimg" small={imgPath} large={imgPath} hideDownload="true"></ModalImage> */}
 
                 <div className="zcardlabel">
                     <h1 className="zcardtitle">{title}</h1>
                 </div>
-        </div>
+                
+        {/* </div> */}
+        </Link>
     </>
     );
 }

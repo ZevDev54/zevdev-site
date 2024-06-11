@@ -1,10 +1,18 @@
 {
     "category": "Design 20",
-    "relpath": "media20",
+    "relpath": "media20/graphic-design",
     "projects": [
+        {
+            "name": "Maximalism",
+            "relpath": "maximalism"
+        },
         {
             "name": "Fortune Cookie Poster",
             "relpath": "fortune-cookie"
+        },
+        {
+            "name": "Shapes Posters",
+            "relpath": "shapes-poster"
         },
         {
             "name": "Learning Illustrator",
@@ -13,10 +21,7 @@
         {
             "name": "Working with Grids",
             "relpath": "grids"
-        },
-        {
-            "name": "Shapes Posters",
-            "relpath": "shapes-poster"
         }
+
     ]
 }

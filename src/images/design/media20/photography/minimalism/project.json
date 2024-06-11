@@ -1,0 +1,16 @@
+
+{
+    "name":"Minimalism",
+    "containingFolder":"minimalism",
+    "description":"We were tasked to take a photo that has a minimalist composition.",
+    "pieces":[
+        {
+            "pieceName":"Construction Funnel",
+            "file":"minimalism-funnel.jpg"
+        },
+        {
+            "pieceName":"Security Camera",
+            "file":"IMG_7450.jpg"
+        }
+    ]
+}
