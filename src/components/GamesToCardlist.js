@@ -1,6 +1,6 @@
 import Card from "./Card";
 import games from '../games/games.json';
-import { Link } from "react-router-dom";
+
 
 
 const projectElementList = games.map((game) => {

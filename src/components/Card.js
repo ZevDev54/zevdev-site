@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 
-export default function Card({ imgPath, title, link, cardStyle='zcard' }) {
+export default function Card({ imgPath, title, link }) {
     return(
         <>
         <Link to={link} className="zcard">

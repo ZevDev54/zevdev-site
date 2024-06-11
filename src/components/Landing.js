@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from './Card';
 
 import frogShadowed from '../images/logo/FrogWithShadow.png'
 
@@ -18,7 +17,7 @@ export default function Landing() {
         </div>
 
         <div className='divAlignCenter'>
-        <img src={frogShadowed} className='landingFrog'></img>
+        <img alt='' src={frogShadowed} className='landingFrog'></img>
         </div>
         
         </>
