@@ -6,7 +6,12 @@ import PageProjectCardBuilder from './PageProjectCardBuilder';
 export default function Photography() {
 
     return(
-        <PageProjectCardBuilder projectsMeta={designProjects} containerDirectory={"images/design/"}></PageProjectCardBuilder>
+        <>
+        
+            <h1 className='bigtext whitecard aligncenter'>Media Studies 20 Photography Projects</h1>
+
+            <PageProjectCardBuilder projectsMeta={designProjects} containerDirectory={"images/design/"}></PageProjectCardBuilder>
+        </>
     );
     
 
