@@ -13,8 +13,13 @@
             "file":"GoldenReflector.jpg"
         },
         {
+            "pieceName":"White Reflector Casey",
+            "file":"v2-WhiteReflector.jpg"
+        },
+        {
             "pieceName":"Silver Reflector Zev",
             "file":"SilverReflector.jpg"
         }
+        
     ]
 }
