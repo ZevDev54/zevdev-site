@@ -7,6 +7,14 @@
             "relpath": "YTThumbs"
         },
         {
+            "name": "Photo Advertisement",
+            "relpath": "PhotoAdvertisement"
+        },
+        {
+            "name": "Using Reflectors",
+            "relpath": "Reflectors"
+        },
+        {
             "name": "Photography Walks",
             "relpath": "PhotoWalks"
         },

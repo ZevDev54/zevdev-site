@@ -1,0 +1,20 @@
+
+{
+    "name":"Using Reflectors",
+    "containingFolder":"Reflectors",
+    "description":"We used light reflectors to reflect sunlight onto a human subject. I found the golden reflector to have the best effect! We went out in groups of 3 and took turns modelling, holding the reflector, and using the camera.",
+    "pieces":[
+        {
+            "pieceName":"Gold Reflector Zev + Elliott",
+            "file":"v2-GOLDreflector.jpg"
+        },
+        {
+            "pieceName":"Gold Reflector Wesley",
+            "file":"GoldenReflector.jpg"
+        },
+        {
+            "pieceName":"Silver Reflector Zev",
+            "file":"SilverReflector.jpg"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+
+{
+    "name":"Photo Advertisement",
+    "containingFolder":"PhotoAdvertisement",
+    "description":"Making advertisement posters for the brands Goodr and GoPro.",
+    "pieces":[
+        {
+            "pieceName":"Construction Funnel",
+            "file":"GoodrAdvertisement.jpg"
+        },
+        {
+            "pieceName":"Security Camera",
+            "file":"GoProFlowers.jpg"
+        }
+    ]
+}
