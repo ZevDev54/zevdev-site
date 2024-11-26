@@ -1,0 +1,18 @@
+# Warning! This prototype has very poor performance, it will only run well on a good computer! 
+*Explore a mysterious randomly generated concrete world*
+
+### CONTROLS
+
+* Move with WASD
+* Look around using the mouse
+* Left click on blue crystals to collect them
+
+### How to play
+
+- Explore the concrete caves and collect blue crystals
+- A super basic prototype where I was testing out simple random generated levels and interesting atmospheres.
+
+### Reflection
+
+- I think that randomly generated levels are pretty neat, and offer interesting exploration oppourtunities.
+- A multiplayer version of this with more sophisticated movement (ex. ropes) would be pretty neat!

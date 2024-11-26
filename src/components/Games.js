@@ -1,4 +1,4 @@
-import GameGallery from "./GameGallery";
+
 import GamesToCardlist from './GamesToCardlist.js'
 
 

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 import { ReactComponent as InstagramIcon } from '../images/logo/Instagram_Glyph_Black.svg'
 import { ReactComponent as ItchIcon } from '../images/logo/itch-io-seeklogo.svg'
 

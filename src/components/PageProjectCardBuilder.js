@@ -10,7 +10,7 @@ export default function PageProjectCardBuilder({projectsMeta, containerDirectory
             return(
                 <>
                 {/* draws an individual project */}
-                    <h1 className='bigtext aligncenter'>{trueProject.name}</h1>
+                    <h1 className='aligncenter'>{trueProject.name}</h1>
                     <p className='aligncenter projectDescription'>{trueProject.description}</p>
                     <div>
                         {/* <DesignProjectToCardlist project={trueProject} ></DesignProjectToCardlist> */}
