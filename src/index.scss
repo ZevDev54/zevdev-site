@@ -224,7 +224,12 @@ justify-content: space-evenly;
 
         @extend .bigtext;
         margin-left: $linkspacing;
-        font-size: 1.25rem;
+        
+        
+
+        h2{
+          font-size: 1.9rem;
+        }
 
         &:last-child {
           margin-right: $linkspacing;
