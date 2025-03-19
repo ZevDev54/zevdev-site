@@ -8,11 +8,12 @@ export default function Landing() {
     return(
         <>
         
-        <div className='aligncenter'>
-            <img alt='ZevDev Logo' src={ZevDevCombo} className='landingLogo aligncenter'></img>
+        <div className='divAlignCenter'>
+            <img alt='ZevDev Logo' src={ZevDevCombo} className='landingLogo'></img>
         </div>
         <div className='whitecard bodytext'>
-            <h1 className='bigtext aligncenter'>Welcome!</h1>
+        <h1 className='landingText aligncenter'>Welcome!</h1>
+
         <p className='paragraph centerText'>
             Hello world! <br/>
             My name is Zev, or ZevDev. <br></br>
