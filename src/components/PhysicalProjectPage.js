@@ -4,7 +4,7 @@
 export default function PhysicalProjectPage()
 {
     return <div className="whitecard slidesContainer">
-        <h1 className="aligncenter"> MR. SYNTH Oscillator Toy</h1>
+        <h1 className="aligncenter bigtext"> MR. SYNTH Oscillator Toy</h1>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/5FAyFKfrF_0?si=fHs5X-3XgGsy0Y5d" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         <p className="projectDescription">MR. SYNTH is a 555 timer chip based square wave oscillator. 
             The toy has two alligator clips, which use an object connected between them as a resistor to control the oscillator's fequency. 

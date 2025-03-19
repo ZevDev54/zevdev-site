@@ -6,7 +6,7 @@ export default function ContactPage() {
 
     return(
         <div className='whitecard bodytext centerText paragraph'>
-            <h3 className="BigText">Please reach out with any questions!</h3>
+            <h3 className="bigtext">Please reach out with any questions!</h3>
             <p className='paragraph'>contact@zevdev.net</p>
             <ExternalLink className="extLink" href="https://www.instagram.com/zevdev.net_/">Instagram</ExternalLink>
             <br></br>
