@@ -5,11 +5,11 @@
     "description":"Making advertisement posters for the brands Goodr and GoPro.",
     "pieces":[
         {
-            "pieceName":"Construction Funnel",
+            "pieceName":"Goodr",
             "file":"GoodrAdvertisement.jpg"
         },
         {
-            "pieceName":"Security Camera",
+            "pieceName":"GoPro",
             "file":"GoProFlowers.jpg"
         }
     ]

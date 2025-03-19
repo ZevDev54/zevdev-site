@@ -1,11 +1,16 @@
 import React from 'react';
 
-import frogShadowed from '../images/logo/FrogWithShadow.png'
+// import frogShadowed from '../images/logo/FrogWithShadow.png'
+
+import ZevDevCombo from '../images/logo/ZevDevNoDropShadow@4x.png'
 
 export default function Landing() {
     return(
         <>
         
+        <div className='aligncenter'>
+            <img alt='ZevDev Logo' src={ZevDevCombo} className='landingLogo aligncenter'></img>
+        </div>
         <div className='whitecard bodytext'>
             <h1 className='bigtext aligncenter'>Welcome!</h1>
         <p className='paragraph centerText'>
@@ -17,7 +22,8 @@ export default function Landing() {
         </div>
 
         <div className='divAlignCenter'>
-        <img alt='' src={frogShadowed} className='landingFrog'></img>
+
+        {/* <img alt='' src={frogShadowed} className='landingFrog'></img> */}
         </div>
         
         </>

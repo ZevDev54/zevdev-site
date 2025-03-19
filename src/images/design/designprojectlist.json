@@ -7,17 +7,32 @@
             "relpath": "maximalism"
         },
         {
-            "name": "Fortune Cookie Poster",
-            "relpath": "fortune-cookie"
+            "name": "Minimalism",
+            "relpath": "minimalism"
         },
         {
-            "name": "Shapes Posters",
-            "relpath": "shapes-poster"
+            "name": "Photo Advertisement",
+            "relpath": "PhotoAdvertisement"
+        },
+        {
+            "name": "Mental Health Awareness",
+            "relpath": "mental-health"
         },
         {
             "name": "Learning Illustrator",
             "relpath": "learning-illustrator"
         },
+        {
+            "name": "Photography Walks",
+            "relpath": "PhotoWalks"
+        },
+        
+
+        {
+            "name": "Fortune Cookie Poster",
+            "relpath": "fortune-cookie"
+        },
+
         {
             "name": "Working with Grids",
             "relpath": "grids"

@@ -2,33 +2,21 @@
     "category": "Design 20",
     "relpath": "media20/photography",
     "projects": [
+        
         {
             "name": "YouTube Thumbnails",
             "relpath": "YTThumbs"
         },
-        {
-            "name": "Photo Advertisement",
-            "relpath": "PhotoAdvertisement"
-        },
+
         {
             "name": "Using Reflectors",
             "relpath": "Reflectors"
         },
-        {
-            "name": "Photography Walks",
-            "relpath": "PhotoWalks"
-        },
+
         {
             "name": "Zine",
             "relpath": "zine"
-        },
-        {
-            "name": "Mental Health Awareness",
-            "relpath": "mental-health"
-        },
-        {
-            "name": "Minimalism",
-            "relpath": "minimalism"
         }
+        
     ]
 }

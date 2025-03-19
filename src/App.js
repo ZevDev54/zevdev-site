@@ -18,6 +18,7 @@ import ArtPage from "./components/ArtPage";
 import FooterContent from "./components/FooterContent";
 import PhysicalProjectPage from "./components/PhysicalProjectPage";
 import Photography from "./components/Photography";
+import ContactPage from "./components/ContactPage";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <div className="mainAndFooterWrapper">
         <main>
           <div className="content">
-            <link rel="icon" href="./images/logo/ZDLogoNoBackground.png" />
+            <link rel="icon" href="./images/logo/FrogOnlyLime@2x.png" />
 
 
             <BrowserRouter>
@@ -37,9 +38,11 @@ function App() {
                   <Route path="/art" element={<ArtPage />} />
                   <Route path="/design" element={<Design />} />
                   <Route path="/physical-projects" element={<PhysicalProjectPage />} />
+                  <Route path="/contact" element={<ContactPage />} />
+
 
                   <Route path="/mr-synth" element={<PhysicalProjectPage />} />
-                  <Route path="/photography" element={<Photography />} />
+                  {/* <Route path="/photography" element={<Photography />} /> */}
 
                   {/* <Route path="/mr-synth" element={<PhysicalProjectPage />} /> */}
 

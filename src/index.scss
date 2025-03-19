@@ -1,12 +1,9 @@
-:root{
-  color: #1A1540;
-}
 
 // $hl: #BAD531;
 // $hlshadow: #81AE64;
 
-$hl: #b5c427;
-$hlshadow: #8da355;
+$hl: #BAD532;
+$hlshadow: #9ACA3C;
 
 
 
@@ -14,11 +11,28 @@ $hlshadow: #8da355;
 // $white: #F2F7E6;
 // $whiteshadow: #C5E5D8;
 
-$white: #ede7be;
-$whiteshadow: #d1d4a1;
+$white: #FFFFFF;
+$whiteshadow: #e1fffa;
 
-$black: #1A1540;
+$black: #181440;
 
+
+:root{
+  color: $black;
+}
+
+
+.topLeftLogo{
+  width: clamp(8vw, 100px, 80%);
+  padding: 0.5rem;
+
+  transition: transform .2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+
+  }
+}
 
 // #698CC2
 // #2D8A50
@@ -32,6 +46,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: $hl;
+  background-image: url("./images/siteflair/PatternLime@2x.png");
+  // overflow: scroll;
+
+  background-size: 350px;
 }
 
 code {
@@ -42,7 +60,9 @@ code {
 
 .paragraph{
   font-size: clamp(16px, 4vw, 2rem);
-  font-family: "Roboto";
+  // font-family: "Roboto";
+  font-family: 'Rubik';
+  font-weight: 400;
   line-height: 2em;
 }
 
@@ -191,10 +211,20 @@ justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
 
+  @media (max-width: 600px) {
+    flex-direction: column; // Switch to column on smaller screens
+    text-align: center;
+  }
+
   .linklist {
     list-style: none;
     display:block;
     margin-left: auto;
+    @media (max-width: 600px) {
+      margin-left: 0;
+      text-align: center;
+    }
+    
     .navlinkitem{
       display:block;
       list-style: none;
@@ -202,17 +232,29 @@ justify-content: space-evenly;
   }
 
     .linksdiv {
-
-      // @extend .card;
-      @extend .whitecard;
-
+      flex-direction: row;
       margin-left: auto;
+      @media (max-width: 600px) {
+        flex-direction: column; // Switch to column on smaller screens
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        
+      }
+      // @extend .card;
+      
+
+      
 
       display: flex;
       align-items: center;
       justify-content: flex-end;
 
       .pagelink {
+        @extend .whitecard;
+        // @extend .centerText
+        text-align: center;
+
         transition: transform .2s ease-in-out;
 
         &:hover {
@@ -225,10 +267,18 @@ justify-content: space-evenly;
         @extend .bigtext;
         margin-left: $linkspacing;
         
-        
+        @media (max-width: 600px) {
+          margin-left: 0;
+          margin-bottom: 1.5rem;
+        }
+
 
         h2{
-          font-size: 1.9rem;
+          // font-size: 1.9rem;
+          font-size: clamp(1.6vw, 1rem, 100px);
+          padding-left: 20px;
+          padding-right: 20px;
+
         }
 
         &:last-child {
@@ -386,7 +436,9 @@ justify-content: space-evenly;
 .bigtext {
   @extend .text;
   
-  font-family: 'Bowlby One SC';
+  // font-family: 'Bowlby One SC';
+  font-family: 'Rubik';
+  font-weight: 800;
 
 
 }
@@ -413,19 +465,26 @@ a {
 .whitecard {
   @extend .card;
   background-color: $white;
-  box-shadow: -5px 5px 4px 3px $hlshadow;
+  box-shadow: -5px 5px 1px 1px $hlshadow;
 }
 
 .greencard {
   @extend .card;
   background-color: $hl;
-  box-shadow: -5px 5px 4px 3px $whiteshadow;
+  box-shadow: -5px 5px 2px 2px $whiteshadow;
 }
 
 .landingFrog{
-  width: clamp(15vw, 100px, 500px);
+  width: clamp(20vw, 100px, 700px);
   margin: 2rem;
+  text-align: center;
+}
 
+.landingLogo{
+  width: clamp(25vw, 250px, 400px);
+  margin-bottom: 5rem;
+
+  text-align: center;
 }
 
 .divAlignCenter{
@@ -436,22 +495,44 @@ a {
 }
 
 @font-face {
-  font-family: 'Bowlby One SC';
-  font-style: normal;
+  src: url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(http://themes.googleusercontent.com/static/fonts/bowlbyonesc/v5/8ZkeXftTuzKBtmxOYXoReWwgCUWMlcoGHIqZ0R9q_Yo.ttf) format('truetype');
+  font-style: normal;
 }
 
-@font-face {
-  font-family: 'Titillium Web';
-  font-style: normal;
+.rubik-paragraph{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/7XUFZ5tgS-tD6QamInJTcU3KvHLhcNjEHFQzwNtdMQY.ttf) format('truetype');
+  font-style: normal;
 }
 
-@font-face {
-  font-family: 'Nunito';
+.rubik-semibold{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
   font-style: normal;
-  font-weight: 400;
-  src: local('Nunito-Regular'), url(http://themes.googleusercontent.com/static/fonts/nunito/v4/kpI87QY2ce-mk2ZnKb-r0g.ttf) format('truetype');
 }
+
+// @font-face {
+//   font-family: 'Bowlby One SC';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(http://themes.googleusercontent.com/static/fonts/bowlbyonesc/v5/8ZkeXftTuzKBtmxOYXoReWwgCUWMlcoGHIqZ0R9q_Yo.ttf) format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Titillium Web';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/7XUFZ5tgS-tD6QamInJTcU3KvHLhcNjEHFQzwNtdMQY.ttf) format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Nunito';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local('Nunito-Regular'), url(http://themes.googleusercontent.com/static/fonts/nunito/v4/kpI87QY2ce-mk2ZnKb-r0g.ttf) format('truetype');
+// }
