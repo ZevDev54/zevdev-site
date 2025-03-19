@@ -4,6 +4,7 @@
 
 $hl: #BAD532;
 $hlshadow: #9ACA3C;
+$link: #6EA8CC;
 
 
 
@@ -331,6 +332,11 @@ justify-content: space-evenly;
   display: flex;
 }
 
+.extLink{
+  color: $link;
+  text-decoration: underline;
+}
+
 .instagramIcon{
   width: 2rem;
   height: 2rem;
@@ -417,7 +423,7 @@ justify-content: space-evenly;
   // font-family: 'Bowlby One SC';
   font-family: 'Rubik';
   font-weight: 800;
-
+  font-size: clamp(1.6vw, 1rem, 100px);
 
 }
 

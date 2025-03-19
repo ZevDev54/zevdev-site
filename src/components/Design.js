@@ -7,7 +7,9 @@ export default function Design() {
 
     return(
         <>
-        <h1 className='bigtext whitecard aligncenter'>Media Studies 20 Graphic Design Projects</h1>
+        <h1 className='bigtext whitecard aligncenter'>Media Studies 20 Graphic Design and Photography</h1>
+        <br></br>
+
         <PageProjectCardBuilder projectsMeta={designProjects} containerDirectory={"images/design/"}></PageProjectCardBuilder>
         
         
