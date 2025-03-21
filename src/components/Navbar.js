@@ -4,13 +4,11 @@ import navitems from "../navbar-items.json";
 
 const navbits = navitems.map((nav) => {
     return (
-
-        <li className='navlinkitem pagelink'>
-            <Link to={nav.slug}>
+        <Link to={nav.slug}>
+            <li className='navlinkitem pagelink'>
                 <h2 >{nav.navtitle}</h2>
-            </Link>
-        </li>
-
+            </li>
+        </Link>
 
     )
 }

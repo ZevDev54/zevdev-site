@@ -182,7 +182,9 @@ justify-content: space-evenly;
 
       .zcardtitle {
         // @extend .bigtext;
-        font-family: "Roboto";
+        // font-family: "Roboto";
+        font-family: 'Rubik';
+        font-weight: 500;
         text-align: center;
         
         font-size: clamp(16px, 4vw, 2rem);
@@ -338,15 +340,15 @@ justify-content: space-evenly;
 }
 
 .instagramIcon{
-  width: 2vw;
-  height: 2vw;
+  width: clamp(20px, 2vw, 100px);
+  height: clamp(20px, 2vw, 100px);
 
   padding: 0.5rem;
 }
 
 .itchIcon{
-  width: 2vw;
-  height: 2vw;
+  width: clamp(20px, 2vw, 100px);
+  height: clamp(20px, 2vw, 100px);
 
   padding: 0.5rem;
 }
