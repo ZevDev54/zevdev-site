@@ -6,15 +6,15 @@
     "pieces":[
         {
             "pieceName":"Billboard Advertisement",
-            "file":"wide-HoldingMGES.jpg"
+            "file":"wide-HoldingMGES-compressed.jpg"
         },
         {
             "pieceName":"Main product shot",
-            "file":"36x24-MGES-MainPhoto.jpg"
+            "file":"36x24-MGES-MainPhoto-compressed.jpg"
         },
         {
             "pieceName":"Game-to-life",
-            "file":"36x24-MGES-GameToLife.jpg"
+            "file":"36x24-MGES-GameToLife-compressed.jpg"
         }
     ]
 

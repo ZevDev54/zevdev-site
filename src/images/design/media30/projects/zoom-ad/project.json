@@ -6,15 +6,15 @@
     "pieces":[
         {
             "pieceName":"Zoom Social Media Ad (square aspect)",
-            "file":"Zoom-SocialMediaSquare-ad.jpg"
+            "file":"Zoom-SocialMediaSquare-ad-compressed.jpg"
         },
         {
             "pieceName":"Zoom Social Media Ad (9:16)",
-            "file":"Zoom-SocialMedia16-9-ad.jpg"
+            "file":"Zoom-SocialMedia16-9-ad-compressed.jpg"
         },
         {
             "pieceName":"Zoom Magazine Full Page (8.5x11, CMYK)",
-            "file":"Zoom-magazine-ad.jpg"
+            "file":"Zoom-magazine-ad-compressed.jpg"
         }
     ]
 

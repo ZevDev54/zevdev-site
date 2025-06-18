@@ -6,15 +6,15 @@
     "pieces":[
         {
             "pieceName":"Hungry Tree",
-            "file":"TreeMouth.jpg"
+            "file":"TreeMouth-compressed.jpg"
         },
         {
             "pieceName":"Tree House",
-            "file":"TreeWindows.jpg"
+            "file":"TreeWindows-compressed.jpg"
         },
         {
             "pieceName":"Inner Turmoil",
-            "file":"InnerTurmoil.jpg"
+            "file":"InnerTurmoil-compressed.jpg"
         }
     ]
 

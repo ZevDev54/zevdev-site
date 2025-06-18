@@ -6,11 +6,11 @@
     "pieces":[
         {
             "pieceName":"Unrealistic Infatuation",
-            "file":"UnrealisticInfatuation.jpg"
+            "file":"UnrealisticInfatuation-compressed.jpg"
         },
         {
             "pieceName":"Realistic Rejection",
-            "file":"RealisticRejection.jpg"
+            "file":"RealisticRejection-compressed.jpg"
         }
     ]
 
