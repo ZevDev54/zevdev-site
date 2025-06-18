@@ -1,0 +1,44 @@
+{
+    "category": "Design 30",
+    "relpath": "media30/projects",
+    "projects": [
+        {
+            "name": "Block Printed Clothing",
+            "relpath": "final-clothingprints"
+        },
+        {
+            "name": "Feyd Rautha Poster",
+            "relpath": "ggg-30"
+        },
+        {
+            "name": "Zoom H1E Advertisement",
+            "relpath": "zoom-ad"
+        },
+        {
+            "name": "MGES Advertisement",
+            "relpath": "photo-ad-mges"
+        },
+        {
+            "name": "Poster Redesign",
+            "relpath": "poster-redesign"
+        },
+        {
+            "name": "photo-Vector Mashup",
+            "relpath": "vector-mashup"
+        },
+        {
+            "name": "Book Cover",
+            "relpath": "book-cover"
+        },
+        {
+            "name": "Contrasting Emotions",
+            "relpath": "contrasting-emotions"
+        },
+        {
+            "name": "Double Exposure",
+            "relpath": "double-exposure"
+        }
+
+
+    ]
+}

@@ -1,0 +1,19 @@
+
+{
+    "name":"Book Cover Design - The Lamp At Noon",
+    "containingFolder":"book-cover",
+    "description":"I read through The Lamp at Noon short story, and represented the main symbols and atmosphere in a visual cover. I experiemtned with grainy gradients and gradient mapped photos.",
+    "pieces":[
+        {
+            "pieceName":"Lamp At Noon full cover",
+            "file":"LampAtNoonCoverFull.png"
+        },
+        {
+            "pieceName":"Lamp at Noon Mockup",
+            "file":"Mockup-LampAtNoon.png"
+        }
+    ]
+
+
+    
+}

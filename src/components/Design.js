@@ -1,5 +1,6 @@
 
-import designProjects from '../images/design/designprojectlist.json';
+import designProjects20 from '../images/design/designprojectlist.json';
+import designProjects30 from '../images/design/designprojectlist30.json';
 
 import PageProjectCardBuilder from './PageProjectCardBuilder';
 
@@ -7,10 +8,14 @@ export default function Design() {
 
     return(
         <>
-        <h1 className='bigtext whitecard aligncenter'>Media Studies 20 Graphic Design and Photography</h1>
         <br></br>
 
-        <PageProjectCardBuilder projectsMeta={designProjects} containerDirectory={"images/design/"}></PageProjectCardBuilder>
+        <h1 className='bigtext whitecard aligncenter'>Media Studies 30 - Graphic Design and Photography</h1>
+        <PageProjectCardBuilder projectsMeta={designProjects30} containerDirectory={"images/design/"}></PageProjectCardBuilder>
+
+        <h1 className='bigtext whitecard aligncenter'>Media Studies 20 - Graphic Design and Photography</h1>
+
+        <PageProjectCardBuilder projectsMeta={designProjects20} containerDirectory={"images/design/"}></PageProjectCardBuilder>
         
         
         

@@ -1,0 +1,19 @@
+
+{
+    "name":"Photo-Vector Mashup",
+    "containingFolder":"vector-mashup",
+    "description":"Using vector elements to enhance a photograph. I struggled with this project- I was inspired by futuristic and heavier graphics from Cyberpunk and upcoming game Marathon, but I also wanted to maintain a light and colorful vibe. If I were to go back in time I would have tried to stick to a lane a bit more, either leaning into the militaristic dystopian cybernetic aesthetic, or lean into the more playful feel. I think the harsh polygonal shapes are neat, though, and would benefit from a more 'harsh' color palette. The rough-hewn outlines were vaguely inspired by my beloved Spider-Punk.",
+    "pieces":[
+        {
+            "pieceName":"Bossman Cohen 1",
+            "file":"BossmanCohen-PrimaryColors.png"
+        },
+        {
+            "pieceName":"Bossman Cohen 2",
+            "file":"BossmanCohen-YellowOrangeCyan.png"
+        }
+    ]
+
+
+    
+}

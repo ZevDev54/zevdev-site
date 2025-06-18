@@ -1,0 +1,23 @@
+
+{
+    "name":"Double Exposure",
+    "containingFolder":"double-exposure",
+    "description":"I used photoshop blending modes for the two tree shots, and in-camera digital double exposure for the B/W shot. I found double exposure to be a great way to create surrealism without using online-sourced imagery!",
+    "pieces":[
+        {
+            "pieceName":"Hungry Tree",
+            "file":"TreeMouth.jpg"
+        },
+        {
+            "pieceName":"Tree House",
+            "file":"TreeWindows.jpg"
+        },
+        {
+            "pieceName":"Inner Turmoil",
+            "file":"InnerTurmoil.jpg"
+        }
+    ]
+
+
+    
+}

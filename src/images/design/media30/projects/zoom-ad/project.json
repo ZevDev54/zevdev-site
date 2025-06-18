@@ -1,0 +1,23 @@
+
+{
+    "name":"Photo Advertisement Practice, For Different Media Types",
+    "containingFolder":"zoom-ad",
+    "description":"I wanted the advertisement to capture the intimate experience of using a field recorder. When you are plugged in to the recorder, your main focus is on the subtle sounds it picks up and amplifies in your ears. Using it is humbling as it makes every sound around you much more powerful. I wanted to capture this audio experience through photography, which I feel I succeeded with, through the composition and vignette which focuses the viewer to the hand and lsuh scenery around the subject. \n I was challenged by adapting the composition to multiple different aspect ratios, since the framing needed to be tight to avoid the distraction of the subject's face.",
+    "pieces":[
+        {
+            "pieceName":"Zoom Social Media Ad (square aspect)",
+            "file":"Zoom-SocialMediaSquare-ad.jpg"
+        },
+        {
+            "pieceName":"Zoom Social Media Ad (9:16)",
+            "file":"Zoom-SocialMedia16-9-ad.jpg"
+        },
+        {
+            "pieceName":"Zoom Magazine Full Page (8.5x11, CMYK)",
+            "file":"Zoom-magazine-ad.jpg"
+        }
+    ]
+
+
+    
+}

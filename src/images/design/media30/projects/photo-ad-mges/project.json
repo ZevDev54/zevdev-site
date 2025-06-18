@@ -1,0 +1,23 @@
+
+{
+    "name":"Photo Advertisement For the MGES",
+    "containingFolder":"photo-ad-mges",
+    "description":"These are fictional advertisements for my first major industrial design proejct, the MGES (mini goober entertainment system). I was inspired by gameboy advertisements and Apple advertisements- which was hard to balance! I think that the clean shots are great but the game-to-life advert is more reflective of the playful vibes of the MGES.",
+    "pieces":[
+        {
+            "pieceName":"Billboard Advertisement",
+            "file":"wide-HoldingMGES.jpg"
+        },
+        {
+            "pieceName":"Main product shot",
+            "file":"36x24-MGES-MainPhoto.jpg"
+        },
+        {
+            "pieceName":"Game-to-life",
+            "file":"36x24-MGES-GameToLife.jpg"
+        }
+    ]
+
+
+    
+}

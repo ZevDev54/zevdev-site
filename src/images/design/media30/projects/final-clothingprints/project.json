@@ -1,0 +1,33 @@
+
+{
+    "name":"Final Project - Block Printed Clothing",
+    "containingFolder":"final-clothingprints",
+    "description":"Using my 3D printer, I printed 3D extruded 'stamps' of my ZevDev branding. I rolled on block print fabric ink onto the plastic, and used the 3D prints to stamp graphics onto clothes.",
+    "pieces":[
+        {
+            "pieceName":"3D printed blocks",
+            "file":"3Dp-blocks.jpg"
+        },
+        {
+            "pieceName":"GUBR/Senseless Geometry shirt",
+            "file":"WF-GubrShirtsDark.jpg"
+        },
+        {
+            "pieceName":"GUBR/Senseless Geometry shirt",
+            "file":"ZF-GubrShirtsDark.jpg"
+        },
+        {
+            "pieceName":"UBRGUBR Jacket",
+            "file":"grunge-UBRGUBR-jacket-front.jpg"
+        },
+        {
+            "pieceName":"UBRGUBR Jacket",
+            "file":"grunge-UBRGUBR-jacket-back.jpg"
+        }
+
+        
+    ]
+
+
+    
+}

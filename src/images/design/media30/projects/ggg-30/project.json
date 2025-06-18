@@ -1,0 +1,15 @@
+
+{
+    "name":"Silhouette Movie Poster",
+    "containingFolder":"ggg-30",
+    "description":"Using image tracing and a grid system, I made this Dune 2 poster for my favourite character in the movie, the psychotic Feyd-Rautha. I love the minimalist look of the poster, but I feel like much of the original expression has been lost. I tried communicating more form with more lines or gray shapes, but I was unsuccessful. I'm also proud of my use of esoteric fonts - I usually struggle with typefaces.",
+    "pieces":[
+        {
+            "pieceName":"Feyd-Rautha movie poster",
+            "file":"GGG-movie-Dune2-feyd-rautha.png"
+        }
+    ]
+
+
+    
+}
