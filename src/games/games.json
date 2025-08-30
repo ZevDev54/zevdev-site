@@ -4,8 +4,7 @@
         "thumbpath": "SleazyRiverThumbnail-itch.png",
         "pageslug":"https://zevdev.itch.io/sleazy-river",
         "iframelink":"",
-        "MdPath":"default-desc.txt",
-        "externalLink":"true"
+        "MdPath":"default-desc.txt"
     },
 
     {
@@ -50,8 +49,7 @@
         "thumbpath": "SnakeStampede.png",
         "pageslug":"https://zevdev.itch.io/snake-stampede",
         "iframelink":"https://snake-stamepede.s3.ca-central-1.amazonaws.com/snakestampede8.html",
-        "MdPath":"default-desc.txt",
-        "externalLink":"true"
+        "MdPath":"default-desc.txt"
     },
     {
         "name":"Trangles",
