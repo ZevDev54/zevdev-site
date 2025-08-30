@@ -6,7 +6,7 @@ import games from '../games/games.json';
 const projectElementList = games.map((game) => {
     const gameThumb= require('../images/gamethumbnails/' + game.thumbpath);
     return (
-        <Card imgPath={gameThumb} title={game.name} link={game.pageslug} isExternalLink={game.externalLink}></Card>
+        <Card imgPath={gameThumb} title={game.name} link={game.pageslug}></Card>
         
     )
 }
