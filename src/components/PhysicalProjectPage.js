@@ -8,7 +8,7 @@ export default function PhysicalProjectPage() {
 
         <div className="whitecard slidesContainer">
             <h1 className="aligncenter bigtext"> MGES - Mini Goober Entertainment System</h1>
-            <iframe width="560" height="315" src="https://youtu.be/1Y2K_1UHEbA?si=aDz-wYsrSrDvzq-D" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Y2K_1UHEbA?si=5t8bAYNhgFMzaj99" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             <p className="projectDescription">
 
                 The MGES is my most advanced Industrial Design project to date. It is a XIAO ESP32 microcontroller that powers a super tiny 0.96" OLED screen. I challenged myself to
