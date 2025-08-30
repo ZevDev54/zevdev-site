@@ -59,6 +59,8 @@ code {
 }
 
 
+
+
 .paragraph{
   font-size: clamp(16px, 4vw, 2rem);
   // font-family: "Roboto";
@@ -121,6 +123,13 @@ justify-content: space-evenly;
   }
 
 }
+
+// .mgesImgContainer{
+//   width: 25%;
+//   .img{
+//     width: auto
+//   }
+// }
 
 .zcard{
   @extend .greencard;

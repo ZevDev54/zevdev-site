@@ -1,23 +1,48 @@
 import { Link } from "react-router-dom";
 
 
-export default function Card({ imgPath, title, link }) {
-    return(
-        <>
-        <Link to={link} className="zcard">
-        {/* <div> */}
-            
-                <img className="zcardimg" src={imgPath}></img>
-                {/* <ModalImage className="zcardimg" small={imgPath} large={imgPath} hideDownload="true"></ModalImage> */}
+export default function Card({ imgPath, title, link, isExternalLink }) {
+    if (isExternalLink) {
+        return (
+            <>
+                <Link to={link} className="zcard">
+                    {/* <div> */}
 
-                <div className="zcardlabel">
-                    <h1 className="zcardtitle">{title}</h1>
-                </div>
-                
-        {/* </div> */}
-        </Link>
-    </>
-    );
+                    <img className="zcardimg" src={imgPath}></img>
+                    {/* <ModalImage className="zcardimg" small={imgPath} large={imgPath} hideDownload="true"></ModalImage> */}
+
+                    <div className="zcardlabel">
+                        <h1 className="zcardtitle">{title}</h1>
+                    </div>
+
+                    {/* </div> */}
+                </Link>
+
+            </>
+        );
+
+    }
+    else{
+        return (
+            <>
+                <a href={link} className="zcard">
+                    {/* <div> */}
+
+                    <img className="zcardimg" src={imgPath}></img>
+                    {/* <ModalImage className="zcardimg" small={imgPath} large={imgPath} hideDownload="true"></ModalImage> */}
+
+                    <div className="zcardlabel">
+                        <h1 className="zcardtitle">{title}</h1>
+                    </div>
+
+                    {/* </div> */}
+                </a>
+
+            </>
+        );
+    }
+
+
 }
 
 // export default function Card({ imgPath, title }) {
