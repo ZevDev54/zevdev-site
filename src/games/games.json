@@ -46,7 +46,7 @@
     },
         {
         "name":"Snake Stampede",
-        "thumbpath": "SnakeStampede.png",
+        "thumbpath": "concrete-caves.png",
         "pageslug":"https://zevdev.itch.io/snake-stampede",
         "iframelink":"https://snake-stamepede.s3.ca-central-1.amazonaws.com/snakestampede8.html",
         "MdPath":"default-desc.txt"
