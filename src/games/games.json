@@ -1,5 +1,13 @@
 [
     {
+        "name":"Lotus Ascension",
+        "thumbpath": "LotusComingSoon.png",
+        "pageslug":"https://zevdev.itch.io/sleazy-river",
+        "iframelink":"",
+        "MdPath":"default-desc.txt"
+    },
+
+    {
         "name":"Sleazy River",
         "thumbpath": "SleazyRiverThumbnail-itch.png",
         "pageslug":"https://zevdev.itch.io/sleazy-river",
