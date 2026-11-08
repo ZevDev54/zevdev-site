@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "yaml": "^2.9.1"
   }
 }
